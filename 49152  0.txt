@@ -1,0 +1,487 @@
+              49152  0
+ice                  1196032  1 irdma
+libahci                61440  1 ahci
+nvme                   65536  0
+megaraid_sas          212992  0
+libata                479232  3 ata_piix,libahci,ahci
+crct10dif_pclmul       16384  1
+crc32c_intel           24576  3
+nvme_core             221184  5 nvme,nvme_fc,nvme_fabrics
+ghash_clmulni_intel    16384  0
+tg3                   237568  0
+nvme_common            24576  2 nvmet,nvme_core
+gnss                   16384  1 ice
+t10_pi                 24576  3 nvmet,sd_mod,nvme_core
+fuse                  212992  13
+[e1357167@GN-A40-014 ~]$ lsmod GROMACS
+Usage: lsmod
+[e1357167@GN-A40-014 ~]$ cd BinderDesign
+[e1357167@GN-A40-014 BinderDesign]$ cd HC2
+[e1357167@GN-A40-014 HC2]$ cd 37C
+[e1357167@GN-A40-014 37C]$ module avail GROMACS
+-------------------------------------- /app1/ebapps/arches/flat-avx2/modules/bio ---------------------------------------
+GROMACS/2021.3-foss-2021a-CUDA-11.3.1               GROMACS/2023-foss-2022a-CUDA-11.7.0-avx2
+GROMACS/2021.3-foss-2021a-CUDA-11.3.1-PLUMED-2.7.2  GROMACS/2023-foss-2022a-CUDA-11.7.0-avx512
+GROMACS/2021.5-foss-2021b                           GROMACS/2023.1-foss-2022a
+GROMACS/2021.5-foss-2021b-CUDA-11.4.1               GROMACS/2023.1-foss-2022a-CUDA-11.7.0
+GROMACS/2021.5-foss-2021b-CUDA-11.4.1-PLUMED-2.8.0  GROMACS/2023.3-foss-2022a
+GROMACS/2021.5-foss-2021b-PLUMED-2.8.0              GROMACS/2023.3-foss-2022a-CUDA-11.7.0
+GROMACS/2023-foss-2022a                             GROMACS/2023.3-foss-2023a
+GROMACS/2023-foss-2022a-avx2                        GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+GROMACS/2023-foss-2022a-avx512                      GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-VOLTA70
+GROMACS/2023-foss-2022a-CP2K-2023                   GROMACS/2024.4-foss-2023b
+GROMACS/2023-foss-2022a-CUDA-11.7.0                 GROMACS/2024.4-foss-2023b-PLUMED-2.9.2
+[e1357167@GN-A40-014 37C]$ module load GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Loading GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+  Loading requirement: GCCcore/12.3.0 zlib/1.2.13-GCCcore-12.3.0 binutils/2.40-GCCcore-12.3.0 GCC/12.3.0
+    numactl/2.0.16-GCCcore-12.3.0 XZ/5.4.2-GCCcore-12.3.0 libxml2/2.11.4-GCCcore-12.3.0 libpciaccess/0.17-GCCcore-12.3.0
+    hwloc/2.9.1-GCCcore-12.3.0 OpenSSL/1.1 libevent/2.1.12-GCCcore-12.3.0 UCX/1.14.1-GCCcore-12.3.0
+    libfabric/1.18.0-GCCcore-12.3.0 PMIx/4.2.4-GCCcore-12.3.0 UCC/1.2.0-GCCcore-12.3.0 OpenMPI/4.1.5-GCC-12.3.0
+    OpenBLAS/0.3.23-GCC-12.3.0 FlexiBLAS/3.3.1-GCC-12.3.0 FFTW/3.3.10-GCC-12.3.0 gompi/2023a FFTW.MPI/3.3.10-gompi-2023a
+    ScaLAPACK/2.2.0-gompi-2023a-fb foss/2023a CUDA/12.1.1 GDRCopy/2.3.1-GCCcore-12.3.0
+    UCX-CUDA/1.14.1-GCCcore-12.3.0-CUDA-12.1.1 bzip2/1.0.8-GCCcore-12.3.0 ncurses/6.4-GCCcore-12.3.0
+    libreadline/8.2-GCCcore-12.3.0 Tcl/8.6.13-GCCcore-12.3.0 SQLite/3.42.0-GCCcore-12.3.0 libffi/3.4.4-GCCcore-12.3.0
+    Python/3.11.3-GCCcore-12.3.0 gfbf/2023a cffi/1.15.1-GCCcore-12.3.0 cryptography/41.0.1-GCCcore-12.3.0
+    virtualenv/20.23.1-GCCcore-12.3.0 Python-bundle-PyPI/2023.06-GCCcore-12.3.0 pybind11/2.11.1-GCCcore-12.3.0
+    SciPy-bundle/2023.07-gfbf-2023a networkx/3.1-gfbf-2023a mpi4py/3.1.4-gompi-2023a GSL/2.7-GCC-12.3.0
+    gzip/1.12-GCCcore-12.3.0 lz4/1.9.4-GCCcore-12.3.0 zstd/1.5.5-GCCcore-12.3.0 ICU/73.2-GCCcore-12.3.0
+    Boost/1.82.0-GCC-12.3.0 PLUMED/2.9.0-foss-2023a
+[e1357167@GN-A40-014 37C]$ lsmod GROMACS
+Usage: lsmod
+[e1357167@GN-A40-014 37C]$ lsmod
+Module                  Size  Used by
+overlay               233472  1
+rfkill                 40960  1
+nvidia_drm            131072  0
+nvidia_modeset       1355776  1 nvidia_drm
+video                  73728  1 nvidia_modeset
+nvidia_uvm           6746112  2
+nvidia              54333440  47 nvidia_uvm,nvidia_modeset
+intel_rapl_msr         20480  0
+intel_rapl_common      45056  1 intel_rapl_msr
+intel_uncore_frequency    16384  0
+intel_uncore_frequency_common    16384  1 intel_uncore_frequency
+intel_ifs              32768  0
+i10nm_edac             45056  0
+nfit                   86016  1 i10nm_edac
+libnvdimm             245760  1 nfit
+x86_pkg_temp_thermal    20480  0
+intel_powerclamp       20480  0
+coretemp               20480  0
+rpcrdma               425984  0
+rdma_ucm               36864  0
+binfmt_misc            28672  1
+kvm_intel             442368  0
+ib_srpt                94208  0
+ib_isert               81920  0
+kvm                  1339392  1 kvm_intel
+iscsi_target_mod      503808  1 ib_isert
+target_core_mod       593920  3 iscsi_target_mod,ib_srpt,ib_isert
+ipmi_ssif              45056  0
+irqbypass              16384  1 kvm
+crc32_pclmul           16384  0
+mgag200                77824  0
+rapl                   28672  0
+drm_shmem_helper       28672  1 mgag200
+intel_cstate           28672  0
+iaa_crypto             65536  0
+dell_smbios            32768  0
+drm_kms_helper        245760  4 mgag200,nvidia_drm
+iTCO_wdt               16384  0
+pmt_telemetry          16384  0
+dcdbas                 24576  0
+iTCO_vendor_support    16384  1 iTCO_wdt
+pmt_class              16384  1 pmt_telemetry
+dell_wmi_descriptor    20480  1 dell_smbios
+intel_sdsi             16384  0
+wmi_bmof               16384  0
+acpi_ipmi              20480  0
+syscopyarea            16384  1 drm_kms_helper
+intel_uncore          274432  0
+ipmi_si                98304  1
+pcspkr                 16384  0
+idxd                  155648  1 iaa_crypto
+mei_me                 61440  0
+sysfillrect            16384  1 drm_kms_helper
+isst_if_mbox_pci       16384  0
+i2c_i801               40960  0
+ipmi_devintf           20480  0
+isst_if_mmio           16384  0
+sysimgblt              16384  1 drm_kms_helper
+mei                   180224  1 mei_me
+isst_if_common         24576  2 isst_if_mmio,isst_if_mbox_pci
+idxd_bus               20480  2 idxd,iaa_crypto
+intel_vsec             20480  0
+fb_sys_fops            16384  1 drm_kms_helper
+i2c_smbus              20480  1 i2c_i801
+i2c_ismt               36864  0
+wmi                    45056  4 video,wmi_bmof,dell_smbios,dell_wmi_descriptor
+ipmi_msghandler        90112  4 ipmi_devintf,ipmi_si,acpi_ipmi,ipmi_ssif
+pinctrl_emmitsburg     24576  0
+acpi_power_meter       24576  0
+joydev                 28672  0
+drm                   741376  6 drm_kms_helper,drm_shmem_helper,nvidia,mgag200,nvidia_drm
+auth_rpcgss           196608  0
+lpfc                 1441792  0
+nvmet_fc               49152  1 lpfc
+nvmet                 204800  1 nvmet_fc
+nvme_fc                61440  1 lpfc
+nvme_fabrics           40960  1 nvme_fc
+iavf                  196608  0
+ixgbevf               106496  0
+mlx4_en               176128  0
+mlx4_core             454656  1 mlx4_en
+qedr                  155648  0
+qede                  237568  1 qedr
+qed                  1150976  2 qede,qedr
+crc8                   16384  1 qed
+hpilo                  24576  0
+sr_mod                 28672  0
+hid_microsoft          16384  0
+ff_memless             20480  1 hid_microsoft
+dm_crypt               69632  0
+bnxt_en               405504  0
+mpt3sas               577536  0
+raid_class             16384  1 mpt3sas
+usb_storage            86016  0
+squashfs               86016  0
+loop                   40960  0
+isofs                  65536  0
+smartpqi              139264  0
+dm_thin_pool          122880  0
+dm_bio_prison          28672  1 dm_thin_pool
+dm_persistent_data    139264  1 dm_thin_pool
+dm_bufio               53248  1 dm_persistent_data
+dm_mod                237568  3 dm_crypt,dm_thin_pool,dm_bufio
+udf                   155648  0
+crc_itu_t              16384  1 udf
+cdrom                  90112  3 udf,isofs,sr_mod
+scsi_transport_fc     110592  1 lpfc
+vfat                   20480  1
+fat                   102400  1 vfat
+br_netfilter           36864  0
+bridge                409600  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+xfs                  2510848  0
+qla3xxx                61440  0
+hpsa                  139264  0
+e1000e                380928  0
+ixgbe                 491520  0
+igb                   327680  0
+i2c_algo_bit           16384  2 igb,mgag200
+dca                    20480  2 igb,ixgbe
+aacraid               180224  0
+ata_piix               45056  0
+mptspi                 36864  0
+scsi_transport_spi     49152  1 mptspi
+mptsas                102400  0
+mptscsih               69632  2 mptsas,mptspi
+mptbase               163840  3 mptsas,mptspi,mptscsih
+scsi_transport_sas     57344  4 mptsas,hpsa,smartpqi,mpt3sas
+bnx2x                1282048  0
+mdio                   16384  2 bnx2x,ixgbe
+libcrc32c              16384  3 dm_persistent_data,bnx2x,xfs
+bnx2                  122880  0
+ext4                 1183744  1
+mbcache                16384  1 ext4
+jbd2                  217088  1 ext4
+e1000                 196608  0
+nfsv4                1232896  0
+dns_resolver           16384  1 nfsv4
+nfsv3                  86016  3
+nfs_acl                16384  1 nfsv3
+nfs                   614400  5 nfsv4,nfsv3
+lockd                 196608  2 nfsv3,nfs
+grace                  16384  1 lockd
+sunrpc                851968  42 rpcrdma,nfsv4,auth_rpcgss,lockd,nfsv3,nfs_acl,nfs
+fscache               405504  1 nfs
+netfs                  65536  2 fscache,nfs
+tun                    73728  0
+ib_iser                69632  0
+rdma_cm               155648  5 rpcrdma,ib_srpt,ib_iser,ib_isert,rdma_ucm
+iw_cm                  69632  1 rdma_cm
+ib_cm                 155648  2 rdma_cm,ib_srpt
+libiscsi               86016  1 ib_iser
+scsi_transport_iscsi   188416  2 ib_iser,libiscsi
+irdma                 450560  0
+i40e                  634880  1 irdma
+ib_uverbs             204800  3 irdma,rdma_ucm,qedr
+ib_core               528384  11 rdma_cm,rpcrdma,ib_srpt,iw_cm,ib_iser,ib_isert,irdma,rdma_ucm,ib_uverbs,qedr,ib_cm
+sd_mod                 90112  0
+sg                     53248  0
+ahci                   49152  0
+ice                  1196032  1 irdma
+libahci                61440  1 ahci
+nvme                   65536  0
+megaraid_sas          212992  0
+libata                479232  3 ata_piix,libahci,ahci
+crct10dif_pclmul       16384  1
+crc32c_intel           24576  3
+nvme_core             221184  5 nvme,nvme_fc,nvme_fabrics
+ghash_clmulni_intel    16384  0
+tg3                   237568  0
+nvme_common            24576  2 nvmet,nvme_core
+gnss                   16384  1 ice
+t10_pi                 24576  3 nvmet,sd_mod,nvme_core
+fuse                  212992  13
+[e1357167@GN-A40-014 37C]$ gmx grompp -f minim.mdp -c 1AKI_solv_ions.gro -p topol.top -o em.tpr
+gmx mdrun -v -deffnm em
+
+gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
+gmx mdrun -deffnm nvt
+
+gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
+gmx mdrun -deffnm npt
+               :-) GROMACS - gmx grompp, 2023.3-plumed_2.9.0 (-:
+
+Executable:   /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86/bin/gmx
+Data prefix:  /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Working dir:  /nfs/home/svu/e1357167/BinderDesign/HC2/37C
+Command line:
+  gmx grompp -f minim.mdp -c 1AKI_solv_ions.gro -p topol.top -o em.tpr
+
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file minim.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Setting the LD random seed to -540301652
+
+Generated 167799 of the 167910 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+
+Generated 117432 of the 167910 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_B'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+Analysing residue names:
+There are:   160    Protein residues
+There are: 16146      Water residues
+Analysing Protein...
+Number of degrees of freedom in T-Coupling group rest is 104160.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+The largest distance between excluded atoms is 0.446 nm between atom 946 and 2095
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x72, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.26
+
+This run will generate roughly 4 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "gmx fellowship-writing -g grant_name -s protein_structure_involved -o output -m method_used -p list_of_pi" (Tanadet Pipatpolkai, while discussing new features for GROMACS)
+
+                :-) GROMACS - gmx mdrun, 2023.3-plumed_2.9.0 (-:
+
+Executable:   /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86/bin/gmx
+Data prefix:  /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Working dir:  /nfs/home/svu/e1357167/BinderDesign/HC2/37C
+Command line:
+  gmx mdrun -v -deffnm em
+
+Compiled SIMD is AVX2_256, but CPU also supports AVX_512 (see log).
+Reading file em.tpr, VERSION 2023.3-plumed_2.9.0 (single precision)
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2023.3-plumed_2.9.0
+Source file: src/gromacs/taskassignment/resourcedivision.cpp (line 220)
+
+Fatal error:
+When using GPUs, setting the number of OpenMP threads without specifying the
+number of ranks can lead to conflicting demands. Please specify the number of
+thread-MPI ranks as well (option -ntmpi).
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+               :-) GROMACS - gmx grompp, 2023.3-plumed_2.9.0 (-:
+
+Executable:   /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86/bin/gmx
+Data prefix:  /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Working dir:  /nfs/home/svu/e1357167/BinderDesign/HC2/37C
+Command line:
+  gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2023.3-plumed_2.9.0
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'em.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -r
+    File 'em.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                :-) GROMACS - gmx mdrun, 2023.3-plumed_2.9.0 (-:
+
+Executable:   /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86/bin/gmx
+Data prefix:  /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Working dir:  /nfs/home/svu/e1357167/BinderDesign/HC2/37C
+Command line:
+  gmx mdrun -deffnm nvt
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2023.3-plumed_2.9.0
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+               :-) GROMACS - gmx grompp, 2023.3-plumed_2.9.0 (-:
+
+Executable:   /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86/bin/gmx
+Data prefix:  /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Working dir:  /nfs/home/svu/e1357167/BinderDesign/HC2/37C
+Command line:
+  gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2023.3-plumed_2.9.0
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'nvt.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -r
+    File 'nvt.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'nvt.cpt' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                :-) GROMACS - gmx mdrun, 2023.3-plumed_2.9.0 (-:
+
+Executable:   /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86/bin/gmx
+Data prefix:  /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Working dir:  /nfs/home/svu/e1357167/BinderDesign/HC2/37C
+Command line:
+  gmx mdrun -deffnm npt
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2023.3-plumed_2.9.0
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+[e1357167@GN-A40-014 37C]$ ls
+ 1AKI_newbox.gro      charmm36-jul2022.ff   hc2.pdb    mdout.mdp   posre_Protein_chain_A.itp   topol.top
+ 1AKI_solv.gro        em.log                ions.mdp   minim.mdp   posre_Protein_chain_B.itp  '#topol.top.1#'
+ 1AKI_solv_ions.gro   em.tpr                ions.tpr   npt.mdp     topol_Protein_chain_A.itp
+ BD1.sh               hc2.gro               md.mdp     nvt.mdp     topol_Protein_chain_B.itp
+[e1357167@GN-A40-014 37C]$ gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
+gmx mdrun -deffnm md_0_1
+               :-) GROMACS - gmx grompp, 2023.3-plumed_2.9.0 (-:
+
+Executable:   /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86/bin/gmx
+Data prefix:  /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Working dir:  /nfs/home/svu/e1357167/BinderDesign/HC2/37C
+Command line:
+  gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2023.3-plumed_2.9.0
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'npt.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'npt.cpt' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                :-) GROMACS - gmx mdrun, 2023.3-plumed_2.9.0 (-:
+
+Executable:   /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86/bin/gmx
+Data prefix:  /app1/ebapps/arches/flat-avx2/software/GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+Working dir:  /nfs/home/svu/e1357167/BinderDesign/HC2/37C
+Command line:
+  gmx mdrun -deffnm md_0_1
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2023.3-plumed_2.9.0
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+[e1357167@GN-A40-014 37C]$ ls
+ 1AKI_newbox.gro      charmm36-jul2022.ff   hc2.pdb    mdout.mdp   posre_Protein_chain_A.itp   topol.top
+ 1AKI_solv.gro        em.log                ions.mdp   minim.mdp   posre_Protein_chain_B.itp  '#topol.top.1#'
+ 1AKI_solv_ions.gro   em.tpr                ions.tpr   npt.mdp     topol_Protein_chain_A.itp
+ BD1.sh               hc2.gro               md.mdp     nvt.mdp     topol_Protein_chain_B.itp
+[e1357167@GN-A40-014 37C]$

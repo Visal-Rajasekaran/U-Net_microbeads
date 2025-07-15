@@ -1,0 +1,58 @@
+
+import os
+import numpy as np
+import cv2
+
+def fourier_low_pass_filter(image, cutoff_percent=0.3):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) if image.ndim == 3 else image
+    f = np.fft.fft2(gray)
+    fshift = np.fft.fftshift(f)
+
+    rows, cols = gray.shape
+    crow, ccol = rows // 2, cols // 2
+    mask = np.zeros((rows, cols), np.uint8)
+
+    #cutoff_percent = 0.3  # 30% of max frequency
+    max_radius = min(crow, ccol)
+    cutoff = int(cutoff_percent * max_radius)
+
+    cv2.circle(mask, (ccol, crow), cutoff, 1, thickness=-1)
+
+    fshift_filtered = fshift * mask
+    f_ishift = np.fft.ifftshift(fshift_filtered)
+    img_back = np.fft.ifft2(f_ishift)
+    img_back = np.abs(img_back)
+    img_back = cv2.normalize(img_back, None, 0, 255, cv2.NORM_MINMAX).astype(np.uint8)
+    return img_back
+
+
+def process_folder(input_folder, output_folder, cutoff_percent=0.3):
+    os.makedirs(output_folder, exist_ok=True)
+    img_files = [
+        f for f in os.listdir(input_folder)
+        if f.lower().endswith(('.png', '.jpg', '.jpeg'))
+    ]
+
+    for fname in img_files:
+        in_path = os.path.join(input_folder, fname)
+        out_path = os.path.join(output_folder, fname)
+
+        image = cv2.imread(in_path)
+        
+        if image is None:
+            print(f"[WARN] Could not load: {in_path}")
+            continue
+        #gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) if image.ndim == 3 else image
+        #gray= cv2.bitwise_not(gray)
+
+        filtered = fourier_low_pass_filter(image, cutoff_percent=cutoff_percent)
+        cv2.imwrite(out_path, filtered)
+        print(f"[OK] Filtered: {fname}")
+
+# === RUN ===
+if __name__ == "__main__":
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    INPUT_FOLDER = os.path.join(BASE_DIR, "dataset", "images")
+    OUTPUT_FOLDER = os.path.join(BASE_DIR, "fft_filtered")
+
+    process_folder(INPUT_FOLDER, OUTPUT_FOLDER, cutoff_percent=0.5)

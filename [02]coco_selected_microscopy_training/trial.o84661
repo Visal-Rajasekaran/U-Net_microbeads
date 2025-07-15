@@ -1,0 +1,17 @@
+-bash: /var/spool/pbs/mom_priv/jobs/84661.stdct-mgmt-02.SC: /bin/bash^M: bad interpreter: No such file or directory
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-05-16 13:55:07.846664:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 84661.stdct-mgmt-02
+	Project: personal-e1357167
+	Exit Status: 126
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(36), Used(36)
+	CPU Time Used: 00:00:00
+	Memory: Requested(240gb), Used(8176kb)
+	Vmem Used: 0kb
+	Walltime: Requested(01:00:00), Used(00:00:01)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (GN-A40-071[0]:ncpus=36:ngpus=1:mem=251658240kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.

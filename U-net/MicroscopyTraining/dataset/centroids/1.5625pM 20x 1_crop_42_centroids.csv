@@ -1,0 +1,4 @@
+image_id,image_filename,bead_id,category_id,x,y,area,approx_radius
+29,1.5625pM 20x 1_crop_42.png,4222,1,125,50,564.0,13
+29,1.5625pM 20x 1_crop_42.png,4223,1,172,71,564.0,13
+29,1.5625pM 20x 1_crop_42.png,4224,1,333,26,564.0,13

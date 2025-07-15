@@ -1,0 +1,4198 @@
+NVIDIA A40
+True
+2
+0
+NVIDIA A40
+Updated1
+tensor(1.6631, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.6187, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.5267, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.4417, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.6530, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.6016, device='cuda:0')
+tensor(1.5720, device='cuda:0')
+tensor(1.5835, device='cuda:0')
+tensor(1.5915, device='cuda:0')
+tensor(1.6325, device='cuda:0')
+tensor(1.6113, device='cuda:0')
+tensor(1.6071, device='cuda:0')
+tensor(1.6392, device='cuda:0')
+tensor(1.5941, device='cuda:0')
+tensor(1.6057, device='cuda:0')
+tensor(1.6469, device='cuda:0')
+tensor(1.6917, device='cuda:0')
+tensor(1.5608, device='cuda:0')
+tensor(1.7009, device='cuda:0')
+Epoch 1 | Train Loss: 1.5806 | Val Loss: 1.6171
+New best model saved.
+tensor(1.4918, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3673, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.4289, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3176, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3518, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.5671, device='cuda:0')
+tensor(1.5375, device='cuda:0')
+tensor(1.5496, device='cuda:0')
+tensor(1.5574, device='cuda:0')
+tensor(1.5980, device='cuda:0')
+tensor(1.5771, device='cuda:0')
+tensor(1.5726, device='cuda:0')
+tensor(1.6033, device='cuda:0')
+tensor(1.5596, device='cuda:0')
+tensor(1.5715, device='cuda:0')
+tensor(1.6118, device='cuda:0')
+tensor(1.6566, device='cuda:0')
+tensor(1.5268, device='cuda:0')
+tensor(1.6658, device='cuda:0')
+Epoch 2 | Train Loss: 1.3915 | Val Loss: 1.5825
+New best model saved.
+tensor(1.2337, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3599, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3392, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3057, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1689, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.5222, device='cuda:0')
+tensor(1.4928, device='cuda:0')
+tensor(1.5061, device='cuda:0')
+tensor(1.5135, device='cuda:0')
+tensor(1.5536, device='cuda:0')
+tensor(1.5330, device='cuda:0')
+tensor(1.5282, device='cuda:0')
+tensor(1.5566, device='cuda:0')
+tensor(1.5150, device='cuda:0')
+tensor(1.5273, device='cuda:0')
+tensor(1.5663, device='cuda:0')
+tensor(1.6111, device='cuda:0')
+tensor(1.4829, device='cuda:0')
+tensor(1.6200, device='cuda:0')
+Epoch 3 | Train Loss: 1.2815 | Val Loss: 1.5378
+New best model saved.
+tensor(1.3239, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1478, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1475, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1554, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.4405, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.4723, device='cuda:0')
+tensor(1.4420, device='cuda:0')
+tensor(1.4602, device='cuda:0')
+tensor(1.4668, device='cuda:0')
+tensor(1.5064, device='cuda:0')
+tensor(1.4857, device='cuda:0')
+tensor(1.4803, device='cuda:0')
+tensor(1.5044, device='cuda:0')
+tensor(1.4659, device='cuda:0')
+tensor(1.4792, device='cuda:0')
+tensor(1.5163, device='cuda:0')
+tensor(1.5623, device='cuda:0')
+tensor(1.4344, device='cuda:0')
+tensor(1.5704, device='cuda:0')
+Epoch 4 | Train Loss: 1.2430 | Val Loss: 1.4890
+New best model saved.
+tensor(1.1140, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0690, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.2149, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1741, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3545, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.4135, device='cuda:0')
+tensor(1.3860, device='cuda:0')
+tensor(1.4070, device='cuda:0')
+tensor(1.4079, device='cuda:0')
+tensor(1.4491, device='cuda:0')
+tensor(1.4316, device='cuda:0')
+tensor(1.4248, device='cuda:0')
+tensor(1.4337, device='cuda:0')
+tensor(1.4139, device='cuda:0')
+tensor(1.4290, device='cuda:0')
+tensor(1.4547, device='cuda:0')
+tensor(1.4990, device='cuda:0')
+tensor(1.3859, device='cuda:0')
+tensor(1.4979, device='cuda:0')
+Epoch 5 | Train Loss: 1.1853 | Val Loss: 1.4310
+New best model saved.
+tensor(1.1246, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0947, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0464, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1069, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3892, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3455, device='cuda:0')
+tensor(1.3240, device='cuda:0')
+tensor(1.3468, device='cuda:0')
+tensor(1.3416, device='cuda:0')
+tensor(1.3831, device='cuda:0')
+tensor(1.3736, device='cuda:0')
+tensor(1.3647, device='cuda:0')
+tensor(1.3570, device='cuda:0')
+tensor(1.3607, device='cuda:0')
+tensor(1.3811, device='cuda:0')
+tensor(1.3877, device='cuda:0')
+tensor(1.4260, device='cuda:0')
+tensor(1.3373, device='cuda:0')
+tensor(1.4171, device='cuda:0')
+Epoch 6 | Train Loss: 1.1523 | Val Loss: 1.3676
+New best model saved.
+tensor(0.9981, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1080, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1508, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9896, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.3272, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.2585, device='cuda:0')
+tensor(1.2411, device='cuda:0')
+tensor(1.2727, device='cuda:0')
+tensor(1.2654, device='cuda:0')
+tensor(1.3130, device='cuda:0')
+tensor(1.3091, device='cuda:0')
+tensor(1.2964, device='cuda:0')
+tensor(1.2787, device='cuda:0')
+tensor(1.2898, device='cuda:0')
+tensor(1.3040, device='cuda:0')
+tensor(1.3136, device='cuda:0')
+tensor(1.3509, device='cuda:0')
+tensor(1.2565, device='cuda:0')
+tensor(1.3485, device='cuda:0')
+Epoch 7 | Train Loss: 1.1147 | Val Loss: 1.2927
+New best model saved.
+tensor(1.0403, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0731, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1928, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9922, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0410, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1549, device='cuda:0')
+tensor(1.1376, device='cuda:0')
+tensor(1.1923, device='cuda:0')
+tensor(1.1824, device='cuda:0')
+tensor(1.2418, device='cuda:0')
+tensor(1.2369, device='cuda:0')
+tensor(1.2149, device='cuda:0')
+tensor(1.1947, device='cuda:0')
+tensor(1.2003, device='cuda:0')
+tensor(1.1986, device='cuda:0')
+tensor(1.2273, device='cuda:0')
+tensor(1.2737, device='cuda:0')
+tensor(1.1498, device='cuda:0')
+tensor(1.2928, device='cuda:0')
+Epoch 8 | Train Loss: 1.0679 | Val Loss: 1.2070
+New best model saved.
+tensor(1.1330, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9978, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1759, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9632, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8994, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0523, device='cuda:0')
+tensor(1.0303, device='cuda:0')
+tensor(1.0785, device='cuda:0')
+tensor(1.0805, device='cuda:0')
+tensor(1.1649, device='cuda:0')
+tensor(1.1443, device='cuda:0')
+tensor(1.1011, device='cuda:0')
+tensor(1.0987, device='cuda:0')
+tensor(1.0854, device='cuda:0')
+tensor(1.1216, device='cuda:0')
+tensor(1.1292, device='cuda:0')
+tensor(1.2127, device='cuda:0')
+tensor(1.0182, device='cuda:0')
+tensor(1.2542, device='cuda:0')
+Epoch 9 | Train Loss: 1.0339 | Val Loss: 1.1123
+New best model saved.
+tensor(0.8757, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1526, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0278, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9945, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.2259, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0183, device='cuda:0')
+tensor(0.9896, device='cuda:0')
+tensor(1.0315, device='cuda:0')
+tensor(1.0402, device='cuda:0')
+tensor(1.1236, device='cuda:0')
+tensor(1.0933, device='cuda:0')
+tensor(1.0514, device='cuda:0')
+tensor(1.0781, device='cuda:0')
+tensor(1.0296, device='cuda:0')
+tensor(1.0657, device='cuda:0')
+tensor(1.0997, device='cuda:0')
+tensor(1.1902, device='cuda:0')
+tensor(0.9595, device='cuda:0')
+tensor(1.2420, device='cuda:0')
+Epoch 10 | Train Loss: 1.0553 | Val Loss: 1.0723
+New best model saved.
+tensor(1.0129, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9142, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0376, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9785, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.2767, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0222, device='cuda:0')
+tensor(0.9941, device='cuda:0')
+tensor(1.0184, device='cuda:0')
+tensor(1.0362, device='cuda:0')
+tensor(1.1214, device='cuda:0')
+tensor(1.0781, device='cuda:0')
+tensor(1.0497, device='cuda:0')
+tensor(1.0759, device='cuda:0')
+tensor(1.0165, device='cuda:0')
+tensor(1.0578, device='cuda:0')
+tensor(1.0982, device='cuda:0')
+tensor(1.1921, device='cuda:0')
+tensor(0.9569, device='cuda:0')
+tensor(1.2445, device='cuda:0')
+Epoch 11 | Train Loss: 1.0440 | Val Loss: 1.0687
+New best model saved.
+tensor(1.0117, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9561, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0797, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9765, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9858, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0087, device='cuda:0')
+tensor(0.9798, device='cuda:0')
+tensor(0.9983, device='cuda:0')
+tensor(1.0194, device='cuda:0')
+tensor(1.1058, device='cuda:0')
+tensor(1.0556, device='cuda:0')
+tensor(1.0329, device='cuda:0')
+tensor(1.0560, device='cuda:0')
+tensor(0.9943, device='cuda:0')
+tensor(1.0327, device='cuda:0')
+tensor(1.0822, device='cuda:0')
+tensor(1.1782, device='cuda:0')
+tensor(0.9408, device='cuda:0')
+tensor(1.2318, device='cuda:0')
+Epoch 12 | Train Loss: 1.0020 | Val Loss: 1.0512
+New best model saved.
+tensor(0.9108, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1545, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9806, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0149, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8312, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0039, device='cuda:0')
+tensor(0.9809, device='cuda:0')
+tensor(0.9895, device='cuda:0')
+tensor(1.0188, device='cuda:0')
+tensor(1.1031, device='cuda:0')
+tensor(1.0421, device='cuda:0')
+tensor(1.0260, device='cuda:0')
+tensor(1.0479, device='cuda:0')
+tensor(0.9798, device='cuda:0')
+tensor(1.0188, device='cuda:0')
+tensor(1.0713, device='cuda:0')
+tensor(1.1681, device='cuda:0')
+tensor(0.9322, device='cuda:0')
+tensor(1.2249, device='cuda:0')
+Epoch 13 | Train Loss: 0.9784 | Val Loss: 1.0434
+New best model saved.
+tensor(0.9810, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8858, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0431, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0142, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9909, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9831, device='cuda:0')
+tensor(0.9553, device='cuda:0')
+tensor(0.9785, device='cuda:0')
+tensor(1.0062, device='cuda:0')
+tensor(1.0849, device='cuda:0')
+tensor(1.0339, device='cuda:0')
+tensor(1.0113, device='cuda:0')
+tensor(1.0430, device='cuda:0')
+tensor(0.9675, device='cuda:0')
+tensor(1.0054, device='cuda:0')
+tensor(1.0641, device='cuda:0')
+tensor(1.1650, device='cuda:0')
+tensor(0.9147, device='cuda:0')
+tensor(1.2228, device='cuda:0')
+Epoch 14 | Train Loss: 0.9830 | Val Loss: 1.0311
+New best model saved.
+tensor(1.0719, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0228, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8619, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9532, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9265, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0297, device='cuda:0')
+tensor(1.0320, device='cuda:0')
+tensor(1.0200, device='cuda:0')
+tensor(1.0645, device='cuda:0')
+tensor(1.1602, device='cuda:0')
+tensor(1.0449, device='cuda:0')
+tensor(1.0570, device='cuda:0')
+tensor(1.0588, device='cuda:0')
+tensor(0.9879, device='cuda:0')
+tensor(1.0177, device='cuda:0')
+tensor(1.0727, device='cuda:0')
+tensor(1.1652, device='cuda:0')
+tensor(0.9561, device='cuda:0')
+tensor(1.2356, device='cuda:0')
+Epoch 15 | Train Loss: 0.9673 | Val Loss: 1.0645
+tensor(0.9197, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8578, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0241, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1600, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7884, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9820, device='cuda:0')
+tensor(0.9576, device='cuda:0')
+tensor(0.9683, device='cuda:0')
+tensor(0.9966, device='cuda:0')
+tensor(1.0755, device='cuda:0')
+tensor(1.0287, device='cuda:0')
+tensor(1.0040, device='cuda:0')
+tensor(1.0271, device='cuda:0')
+tensor(0.9661, device='cuda:0')
+tensor(1.0042, device='cuda:0')
+tensor(1.0559, device='cuda:0')
+tensor(1.1574, device='cuda:0')
+tensor(0.9202, device='cuda:0')
+tensor(1.2079, device='cuda:0')
+Epoch 16 | Train Loss: 0.9500 | Val Loss: 1.0251
+New best model saved.
+tensor(1.0814, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7687, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9338, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9235, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.2160, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9783, device='cuda:0')
+tensor(0.9700, device='cuda:0')
+tensor(0.9690, device='cuda:0')
+tensor(0.9991, device='cuda:0')
+tensor(1.0857, device='cuda:0')
+tensor(1.0170, device='cuda:0')
+tensor(1.0089, device='cuda:0')
+tensor(1.0097, device='cuda:0')
+tensor(0.9582, device='cuda:0')
+tensor(0.9959, device='cuda:0')
+tensor(1.0447, device='cuda:0')
+tensor(1.1380, device='cuda:0')
+tensor(0.9243, device='cuda:0')
+tensor(1.1978, device='cuda:0')
+Epoch 17 | Train Loss: 0.9847 | Val Loss: 1.0212
+New best model saved.
+tensor(0.8497, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1562, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0457, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7934, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8491, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9489, device='cuda:0')
+tensor(0.9194, device='cuda:0')
+tensor(0.9510, device='cuda:0')
+tensor(0.9745, device='cuda:0')
+tensor(1.0492, device='cuda:0')
+tensor(1.0145, device='cuda:0')
+tensor(0.9852, device='cuda:0')
+tensor(0.9877, device='cuda:0')
+tensor(0.9527, device='cuda:0')
+tensor(0.9927, device='cuda:0')
+tensor(1.0351, device='cuda:0')
+tensor(1.1304, device='cuda:0')
+tensor(0.9101, device='cuda:0')
+tensor(1.1760, device='cuda:0')
+Epoch 18 | Train Loss: 0.9388 | Val Loss: 1.0019
+New best model saved.
+tensor(0.8709, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9002, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0105, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8475, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1995, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9821, device='cuda:0')
+tensor(0.9842, device='cuda:0')
+tensor(0.9603, device='cuda:0')
+tensor(0.9953, device='cuda:0')
+tensor(1.0764, device='cuda:0')
+tensor(1.0176, device='cuda:0')
+tensor(1.0047, device='cuda:0')
+tensor(0.9913, device='cuda:0')
+tensor(0.9590, device='cuda:0')
+tensor(0.9974, device='cuda:0')
+tensor(1.0394, device='cuda:0')
+tensor(1.1270, device='cuda:0')
+tensor(0.9342, device='cuda:0')
+tensor(1.1801, device='cuda:0')
+Epoch 19 | Train Loss: 0.9657 | Val Loss: 1.0178
+tensor(0.7419, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8489, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1163, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1013, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7795, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9429, device='cuda:0')
+tensor(0.9227, device='cuda:0')
+tensor(0.9405, device='cuda:0')
+tensor(0.9652, device='cuda:0')
+tensor(1.0525, device='cuda:0')
+tensor(1.0015, device='cuda:0')
+tensor(0.9793, device='cuda:0')
+tensor(0.9742, device='cuda:0')
+tensor(0.9335, device='cuda:0')
+tensor(0.9756, device='cuda:0')
+tensor(1.0224, device='cuda:0')
+tensor(1.1227, device='cuda:0')
+tensor(0.8930, device='cuda:0')
+tensor(1.1742, device='cuda:0')
+Epoch 20 | Train Loss: 0.9176 | Val Loss: 0.9929
+New best model saved.
+tensor(0.7755, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9385, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8556, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0552, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0185, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9393, device='cuda:0')
+tensor(0.9164, device='cuda:0')
+tensor(0.9357, device='cuda:0')
+tensor(0.9592, device='cuda:0')
+tensor(1.0393, device='cuda:0')
+tensor(0.9993, device='cuda:0')
+tensor(0.9755, device='cuda:0')
+tensor(0.9659, device='cuda:0')
+tensor(0.9352, device='cuda:0')
+tensor(0.9792, device='cuda:0')
+tensor(1.0205, device='cuda:0')
+tensor(1.1156, device='cuda:0')
+tensor(0.8961, device='cuda:0')
+tensor(1.1615, device='cuda:0')
+Epoch 21 | Train Loss: 0.9287 | Val Loss: 0.9885
+New best model saved.
+tensor(0.8902, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1395, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8196, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6847, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1710, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9679, device='cuda:0')
+tensor(0.9840, device='cuda:0')
+tensor(0.9643, device='cuda:0')
+tensor(0.9957, device='cuda:0')
+tensor(1.0857, device='cuda:0')
+tensor(0.9995, device='cuda:0')
+tensor(1.0050, device='cuda:0')
+tensor(0.9794, device='cuda:0')
+tensor(0.9526, device='cuda:0')
+tensor(0.9795, device='cuda:0')
+tensor(1.0238, device='cuda:0')
+tensor(1.1045, device='cuda:0')
+tensor(0.9267, device='cuda:0')
+tensor(1.1707, device='cuda:0')
+Epoch 22 | Train Loss: 0.9410 | Val Loss: 1.0099
+tensor(1.0727, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8188, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8429, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8462, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0030, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9219, device='cuda:0')
+tensor(0.8985, device='cuda:0')
+tensor(0.9226, device='cuda:0')
+tensor(0.9438, device='cuda:0')
+tensor(1.0261, device='cuda:0')
+tensor(0.9842, device='cuda:0')
+tensor(0.9614, device='cuda:0')
+tensor(0.9530, device='cuda:0')
+tensor(0.9211, device='cuda:0')
+tensor(0.9612, device='cuda:0')
+tensor(1.0044, device='cuda:0')
+tensor(1.0989, device='cuda:0')
+tensor(0.8816, device='cuda:0')
+tensor(1.1513, device='cuda:0')
+Epoch 23 | Train Loss: 0.9167 | Val Loss: 0.9736
+New best model saved.
+tensor(1.0188, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9424, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8659, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9117, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5812, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9435, device='cuda:0')
+tensor(0.9355, device='cuda:0')
+tensor(0.9278, device='cuda:0')
+tensor(0.9612, device='cuda:0')
+tensor(1.0446, device='cuda:0')
+tensor(0.9869, device='cuda:0')
+tensor(0.9759, device='cuda:0')
+tensor(0.9529, device='cuda:0')
+tensor(0.9283, device='cuda:0')
+tensor(0.9664, device='cuda:0')
+tensor(1.0084, device='cuda:0')
+tensor(1.1000, device='cuda:0')
+tensor(0.8963, device='cuda:0')
+tensor(1.1508, device='cuda:0')
+Epoch 24 | Train Loss: 0.8640 | Val Loss: 0.9842
+tensor(0.7754, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9638, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8546, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9675, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8793, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9195, device='cuda:0')
+tensor(0.8923, device='cuda:0')
+tensor(0.9155, device='cuda:0')
+tensor(0.9390, device='cuda:0')
+tensor(1.0222, device='cuda:0')
+tensor(0.9788, device='cuda:0')
+tensor(0.9537, device='cuda:0')
+tensor(0.9544, device='cuda:0')
+tensor(0.9129, device='cuda:0')
+tensor(0.9563, device='cuda:0')
+tensor(1.0019, device='cuda:0')
+tensor(1.1028, device='cuda:0')
+tensor(0.8703, device='cuda:0')
+tensor(1.1604, device='cuda:0')
+Epoch 25 | Train Loss: 0.8881 | Val Loss: 0.9700
+New best model saved.
+tensor(0.6383, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1088, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0612, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7286, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8588, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9266, device='cuda:0')
+tensor(0.9273, device='cuda:0')
+tensor(0.9166, device='cuda:0')
+tensor(0.9454, device='cuda:0')
+tensor(1.0275, device='cuda:0')
+tensor(0.9703, device='cuda:0')
+tensor(0.9563, device='cuda:0')
+tensor(0.9544, device='cuda:0')
+tensor(0.9119, device='cuda:0')
+tensor(0.9488, device='cuda:0')
+tensor(0.9970, device='cuda:0')
+tensor(1.0835, device='cuda:0')
+tensor(0.8762, device='cuda:0')
+tensor(1.1529, device='cuda:0')
+Epoch 26 | Train Loss: 0.8792 | Val Loss: 0.9711
+tensor(0.8591, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8562, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9839, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8317, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7709, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9086, device='cuda:0')
+tensor(0.8840, device='cuda:0')
+tensor(0.9106, device='cuda:0')
+tensor(0.9322, device='cuda:0')
+tensor(1.0128, device='cuda:0')
+tensor(0.9718, device='cuda:0')
+tensor(0.9473, device='cuda:0')
+tensor(0.9463, device='cuda:0')
+tensor(0.9098, device='cuda:0')
+tensor(0.9523, device='cuda:0')
+tensor(0.9951, device='cuda:0')
+tensor(1.0913, device='cuda:0')
+tensor(0.8668, device='cuda:0')
+tensor(1.1470, device='cuda:0')
+Epoch 27 | Train Loss: 0.8604 | Val Loss: 0.9626
+New best model saved.
+tensor(0.8909, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0054, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6111, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9134, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9531, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9069, device='cuda:0')
+tensor(0.9093, device='cuda:0')
+tensor(0.8993, device='cuda:0')
+tensor(0.9372, device='cuda:0')
+tensor(1.0186, device='cuda:0')
+tensor(0.9542, device='cuda:0')
+tensor(0.9479, device='cuda:0')
+tensor(0.9270, device='cuda:0')
+tensor(0.8955, device='cuda:0')
+tensor(0.9296, device='cuda:0')
+tensor(0.9759, device='cuda:0')
+tensor(1.0583, device='cuda:0')
+tensor(0.8651, device='cuda:0')
+tensor(1.1281, device='cuda:0')
+Epoch 28 | Train Loss: 0.8748 | Val Loss: 0.9538
+New best model saved.
+tensor(0.9608, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7520, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9495, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8710, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6565, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8868, device='cuda:0')
+tensor(0.8627, device='cuda:0')
+tensor(0.8923, device='cuda:0')
+tensor(0.9147, device='cuda:0')
+tensor(0.9971, device='cuda:0')
+tensor(0.9533, device='cuda:0')
+tensor(0.9271, device='cuda:0')
+tensor(0.9223, device='cuda:0')
+tensor(0.8827, device='cuda:0')
+tensor(0.9315, device='cuda:0')
+tensor(0.9718, device='cuda:0')
+tensor(1.0728, device='cuda:0')
+tensor(0.8461, device='cuda:0')
+tensor(1.1289, device='cuda:0')
+Epoch 29 | Train Loss: 0.8380 | Val Loss: 0.9421
+New best model saved.
+tensor(0.8966, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7407, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8867, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8991, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8047, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8984, device='cuda:0')
+tensor(0.8923, device='cuda:0')
+tensor(0.8907, device='cuda:0')
+tensor(0.9210, device='cuda:0')
+tensor(1.0086, device='cuda:0')
+tensor(0.9532, device='cuda:0')
+tensor(0.9359, device='cuda:0')
+tensor(0.9081, device='cuda:0')
+tensor(0.8890, device='cuda:0')
+tensor(0.9274, device='cuda:0')
+tensor(0.9703, device='cuda:0')
+tensor(1.0609, device='cuda:0')
+tensor(0.8581, device='cuda:0')
+tensor(1.1157, device='cuda:0')
+Epoch 30 | Train Loss: 0.8456 | Val Loss: 0.9450
+tensor(0.8327, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8091, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7865, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9492, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8241, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8822, device='cuda:0')
+tensor(0.8641, device='cuda:0')
+tensor(0.8824, device='cuda:0')
+tensor(0.9076, device='cuda:0')
+tensor(0.9933, device='cuda:0')
+tensor(0.9467, device='cuda:0')
+tensor(0.9223, device='cuda:0')
+tensor(0.8999, device='cuda:0')
+tensor(0.8779, device='cuda:0')
+tensor(0.9190, device='cuda:0')
+tensor(0.9639, device='cuda:0')
+tensor(1.0591, device='cuda:0')
+tensor(0.8414, device='cuda:0')
+tensor(1.1114, device='cuda:0')
+Epoch 31 | Train Loss: 0.8403 | Val Loss: 0.9337
+New best model saved.
+tensor(0.7259, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8456, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9675, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9114, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6247, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8869, device='cuda:0')
+tensor(0.8799, device='cuda:0')
+tensor(0.8828, device='cuda:0')
+tensor(0.9118, device='cuda:0')
+tensor(0.9949, device='cuda:0')
+tensor(0.9409, device='cuda:0')
+tensor(0.9228, device='cuda:0')
+tensor(0.9083, device='cuda:0')
+tensor(0.8761, device='cuda:0')
+tensor(0.9128, device='cuda:0')
+tensor(0.9620, device='cuda:0')
+tensor(1.0501, device='cuda:0')
+tensor(0.8440, device='cuda:0')
+tensor(1.1116, device='cuda:0')
+Epoch 32 | Train Loss: 0.8150 | Val Loss: 0.9346
+tensor(0.6865, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1060, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8918, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6552, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8074, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8692, device='cuda:0')
+tensor(0.8595, device='cuda:0')
+tensor(0.8684, device='cuda:0')
+tensor(0.8942, device='cuda:0')
+tensor(0.9775, device='cuda:0')
+tensor(0.9315, device='cuda:0')
+tensor(0.9092, device='cuda:0')
+tensor(0.8884, device='cuda:0')
+tensor(0.8617, device='cuda:0')
+tensor(0.9036, device='cuda:0')
+tensor(0.9490, device='cuda:0')
+tensor(1.0387, device='cuda:0')
+tensor(0.8317, device='cuda:0')
+tensor(1.0962, device='cuda:0')
+Epoch 33 | Train Loss: 0.8294 | Val Loss: 0.9199
+New best model saved.
+tensor(0.7153, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8036, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9339, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7234, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0443, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8768, device='cuda:0')
+tensor(0.8619, device='cuda:0')
+tensor(0.8792, device='cuda:0')
+tensor(0.9068, device='cuda:0')
+tensor(0.9868, device='cuda:0')
+tensor(0.9436, device='cuda:0')
+tensor(0.9218, device='cuda:0')
+tensor(0.8950, device='cuda:0')
+tensor(0.8734, device='cuda:0')
+tensor(0.9138, device='cuda:0')
+tensor(0.9580, device='cuda:0')
+tensor(1.0496, device='cuda:0')
+tensor(0.8430, device='cuda:0')
+tensor(1.1005, device='cuda:0')
+Epoch 34 | Train Loss: 0.8441 | Val Loss: 0.9293
+tensor(0.8887, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7219, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8757, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8208, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7390, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8654, device='cuda:0')
+tensor(0.8578, device='cuda:0')
+tensor(0.8664, device='cuda:0')
+tensor(0.8944, device='cuda:0')
+tensor(0.9834, device='cuda:0')
+tensor(0.9276, device='cuda:0')
+tensor(0.9076, device='cuda:0')
+tensor(0.8786, device='cuda:0')
+tensor(0.8518, device='cuda:0')
+tensor(0.8938, device='cuda:0')
+tensor(0.9418, device='cuda:0')
+tensor(1.0359, device='cuda:0')
+tensor(0.8222, device='cuda:0')
+tensor(1.0920, device='cuda:0')
+Epoch 35 | Train Loss: 0.8092 | Val Loss: 0.9156
+New best model saved.
+tensor(0.6984, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8655, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8697, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7876, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8427, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8483, device='cuda:0')
+tensor(0.8375, device='cuda:0')
+tensor(0.8509, device='cuda:0')
+tensor(0.8758, device='cuda:0')
+tensor(0.9569, device='cuda:0')
+tensor(0.9182, device='cuda:0')
+tensor(0.8896, device='cuda:0')
+tensor(0.8638, device='cuda:0')
+tensor(0.8438, device='cuda:0')
+tensor(0.8819, device='cuda:0')
+tensor(0.9321, device='cuda:0')
+tensor(1.0221, device='cuda:0')
+tensor(0.8153, device='cuda:0')
+tensor(1.0697, device='cuda:0')
+Epoch 36 | Train Loss: 0.8128 | Val Loss: 0.9004
+New best model saved.
+tensor(1.0499, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7628, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7005, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5359, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.1623, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8694, device='cuda:0')
+tensor(0.8798, device='cuda:0')
+tensor(0.8657, device='cuda:0')
+tensor(0.9017, device='cuda:0')
+tensor(0.9791, device='cuda:0')
+tensor(0.9250, device='cuda:0')
+tensor(0.9138, device='cuda:0')
+tensor(0.8758, device='cuda:0')
+tensor(0.8580, device='cuda:0')
+tensor(0.8931, device='cuda:0')
+tensor(0.9380, device='cuda:0')
+tensor(1.0177, device='cuda:0')
+tensor(0.8421, device='cuda:0')
+tensor(1.0767, device='cuda:0')
+Epoch 37 | Train Loss: 0.8423 | Val Loss: 0.9169
+tensor(0.8649, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7447, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8455, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6353, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9982, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8377, device='cuda:0')
+tensor(0.8289, device='cuda:0')
+tensor(0.8446, device='cuda:0')
+tensor(0.8677, device='cuda:0')
+tensor(0.9454, device='cuda:0')
+tensor(0.9079, device='cuda:0')
+tensor(0.8823, device='cuda:0')
+tensor(0.8643, device='cuda:0')
+tensor(0.8384, device='cuda:0')
+tensor(0.8776, device='cuda:0')
+tensor(0.9243, device='cuda:0')
+tensor(1.0087, device='cuda:0')
+tensor(0.8084, device='cuda:0')
+tensor(1.0679, device='cuda:0')
+Epoch 38 | Train Loss: 0.8177 | Val Loss: 0.8931
+New best model saved.
+tensor(0.7754, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7125, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7600, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0080, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6075, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8324, device='cuda:0')
+tensor(0.8306, device='cuda:0')
+tensor(0.8356, device='cuda:0')
+tensor(0.8664, device='cuda:0')
+tensor(0.9503, device='cuda:0')
+tensor(0.8999, device='cuda:0')
+tensor(0.8760, device='cuda:0')
+tensor(0.8485, device='cuda:0')
+tensor(0.8207, device='cuda:0')
+tensor(0.8624, device='cuda:0')
+tensor(0.9134, device='cuda:0')
+tensor(1.0029, device='cuda:0')
+tensor(0.7931, device='cuda:0')
+tensor(1.0665, device='cuda:0')
+Epoch 39 | Train Loss: 0.7727 | Val Loss: 0.8856
+New best model saved.
+tensor(0.8078, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7992, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5397, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9372, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9209, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8261, device='cuda:0')
+tensor(0.8312, device='cuda:0')
+tensor(0.8256, device='cuda:0')
+tensor(0.8619, device='cuda:0')
+tensor(0.9430, device='cuda:0')
+tensor(0.8888, device='cuda:0')
+tensor(0.8683, device='cuda:0')
+tensor(0.8315, device='cuda:0')
+tensor(0.8077, device='cuda:0')
+tensor(0.8418, device='cuda:0')
+tensor(0.8999, device='cuda:0')
+tensor(0.9832, device='cuda:0')
+tensor(0.7882, device='cuda:0')
+tensor(1.0502, device='cuda:0')
+Epoch 40 | Train Loss: 0.8010 | Val Loss: 0.8748
+New best model saved.
+tensor(0.7896, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9854, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6418, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7122, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7857, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8095, device='cuda:0')
+tensor(0.8019, device='cuda:0')
+tensor(0.8205, device='cuda:0')
+tensor(0.8467, device='cuda:0')
+tensor(0.9353, device='cuda:0')
+tensor(0.8839, device='cuda:0')
+tensor(0.8582, device='cuda:0')
+tensor(0.8173, device='cuda:0')
+tensor(0.7981, device='cuda:0')
+tensor(0.8411, device='cuda:0')
+tensor(0.8918, device='cuda:0')
+tensor(0.9896, device='cuda:0')
+tensor(0.7719, device='cuda:0')
+tensor(1.0326, device='cuda:0')
+Epoch 41 | Train Loss: 0.7829 | Val Loss: 0.8642
+New best model saved.
+tensor(0.6502, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9415, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8379, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6641, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7500, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8093, device='cuda:0')
+tensor(0.8111, device='cuda:0')
+tensor(0.8169, device='cuda:0')
+tensor(0.8449, device='cuda:0')
+tensor(0.9291, device='cuda:0')
+tensor(0.8824, device='cuda:0')
+tensor(0.8603, device='cuda:0')
+tensor(0.8145, device='cuda:0')
+tensor(0.8030, device='cuda:0')
+tensor(0.8388, device='cuda:0')
+tensor(0.8901, device='cuda:0')
+tensor(0.9766, device='cuda:0')
+tensor(0.7827, device='cuda:0')
+tensor(1.0222, device='cuda:0')
+Epoch 42 | Train Loss: 0.7687 | Val Loss: 0.8630
+New best model saved.
+tensor(0.9484, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8048, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5138, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8151, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7115, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8006, device='cuda:0')
+tensor(0.7941, device='cuda:0')
+tensor(0.8147, device='cuda:0')
+tensor(0.8369, device='cuda:0')
+tensor(0.9192, device='cuda:0')
+tensor(0.8830, device='cuda:0')
+tensor(0.8535, device='cuda:0')
+tensor(0.8059, device='cuda:0')
+tensor(0.8006, device='cuda:0')
+tensor(0.8463, device='cuda:0')
+tensor(0.8866, device='cuda:0')
+tensor(0.9765, device='cuda:0')
+tensor(0.7838, device='cuda:0')
+tensor(1.0133, device='cuda:0')
+Epoch 43 | Train Loss: 0.7587 | Val Loss: 0.8582
+New best model saved.
+tensor(0.7106, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9276, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6652, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6162, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9689, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8150, device='cuda:0')
+tensor(0.8202, device='cuda:0')
+tensor(0.8216, device='cuda:0')
+tensor(0.8489, device='cuda:0')
+tensor(0.9333, device='cuda:0')
+tensor(0.8864, device='cuda:0')
+tensor(0.8674, device='cuda:0')
+tensor(0.8112, device='cuda:0')
+tensor(0.8128, device='cuda:0')
+tensor(0.8523, device='cuda:0')
+tensor(0.8936, device='cuda:0')
+tensor(0.9757, device='cuda:0')
+tensor(0.7957, device='cuda:0')
+tensor(1.0149, device='cuda:0')
+Epoch 44 | Train Loss: 0.7777 | Val Loss: 0.8678
+tensor(0.6722, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6677, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7898, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7707, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9608, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7946, device='cuda:0')
+tensor(0.7971, device='cuda:0')
+tensor(0.8064, device='cuda:0')
+tensor(0.8351, device='cuda:0')
+tensor(0.9136, device='cuda:0')
+tensor(0.8744, device='cuda:0')
+tensor(0.8498, device='cuda:0')
+tensor(0.7946, device='cuda:0')
+tensor(0.7910, device='cuda:0')
+tensor(0.8319, device='cuda:0')
+tensor(0.8784, device='cuda:0')
+tensor(0.9626, device='cuda:0')
+tensor(0.7774, device='cuda:0')
+tensor(1.0029, device='cuda:0')
+Epoch 45 | Train Loss: 0.7722 | Val Loss: 0.8507
+New best model saved.
+tensor(0.8718, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7712, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6201, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6228, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9328, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7929, device='cuda:0')
+tensor(0.7980, device='cuda:0')
+tensor(0.8071, device='cuda:0')
+tensor(0.8433, device='cuda:0')
+tensor(0.9249, device='cuda:0')
+tensor(0.8710, device='cuda:0')
+tensor(0.8493, device='cuda:0')
+tensor(0.7981, device='cuda:0')
+tensor(0.7874, device='cuda:0')
+tensor(0.8248, device='cuda:0')
+tensor(0.8744, device='cuda:0')
+tensor(0.9583, device='cuda:0')
+tensor(0.7669, device='cuda:0')
+tensor(1.0121, device='cuda:0')
+Epoch 46 | Train Loss: 0.7638 | Val Loss: 0.8506
+New best model saved.
+tensor(0.8351, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5425, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8176, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6495, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9622, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8017, device='cuda:0')
+tensor(0.8104, device='cuda:0')
+tensor(0.8086, device='cuda:0')
+tensor(0.8405, device='cuda:0')
+tensor(0.9288, device='cuda:0')
+tensor(0.8751, device='cuda:0')
+tensor(0.8541, device='cuda:0')
+tensor(0.7871, device='cuda:0')
+tensor(0.7903, device='cuda:0')
+tensor(0.8238, device='cuda:0')
+tensor(0.8795, device='cuda:0')
+tensor(0.9633, device='cuda:0')
+tensor(0.7722, device='cuda:0')
+tensor(1.0023, device='cuda:0')
+Epoch 47 | Train Loss: 0.7614 | Val Loss: 0.8527
+tensor(0.9062, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6672, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6311, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8991, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4060, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7846, device='cuda:0')
+tensor(0.7964, device='cuda:0')
+tensor(0.7959, device='cuda:0')
+tensor(0.8334, device='cuda:0')
+tensor(0.9135, device='cuda:0')
+tensor(0.8641, device='cuda:0')
+tensor(0.8421, device='cuda:0')
+tensor(0.7779, device='cuda:0')
+tensor(0.7780, device='cuda:0')
+tensor(0.8106, device='cuda:0')
+tensor(0.8633, device='cuda:0')
+tensor(0.9418, device='cuda:0')
+tensor(0.7651, device='cuda:0')
+tensor(0.9852, device='cuda:0')
+Epoch 48 | Train Loss: 0.7019 | Val Loss: 0.8394
+New best model saved.
+tensor(0.6004, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8725, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4794, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8522, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9480, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7644, device='cuda:0')
+tensor(0.7691, device='cuda:0')
+tensor(0.7813, device='cuda:0')
+tensor(0.8059, device='cuda:0')
+tensor(0.8883, device='cuda:0')
+tensor(0.8479, device='cuda:0')
+tensor(0.8234, device='cuda:0')
+tensor(0.7735, device='cuda:0')
+tensor(0.7619, device='cuda:0')
+tensor(0.7999, device='cuda:0')
+tensor(0.8558, device='cuda:0')
+tensor(0.9354, device='cuda:0')
+tensor(0.7441, device='cuda:0')
+tensor(0.9868, device='cuda:0')
+Epoch 49 | Train Loss: 0.7505 | Val Loss: 0.8241
+New best model saved.
+tensor(0.5977, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7684, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5726, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9642, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6812, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7799, device='cuda:0')
+tensor(0.7951, device='cuda:0')
+tensor(0.7847, device='cuda:0')
+tensor(0.8235, device='cuda:0')
+tensor(0.9060, device='cuda:0')
+tensor(0.8520, device='cuda:0')
+tensor(0.8336, device='cuda:0')
+tensor(0.7573, device='cuda:0')
+tensor(0.7678, device='cuda:0')
+tensor(0.7969, device='cuda:0')
+tensor(0.8502, device='cuda:0')
+tensor(0.9251, device='cuda:0')
+tensor(0.7588, device='cuda:0')
+tensor(0.9667, device='cuda:0')
+Epoch 50 | Train Loss: 0.7168 | Val Loss: 0.8284
+tensor(0.7363, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7630, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7567, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4616, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0047, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7549, device='cuda:0')
+tensor(0.7561, device='cuda:0')
+tensor(0.7772, device='cuda:0')
+tensor(0.8077, device='cuda:0')
+tensor(0.8893, device='cuda:0')
+tensor(0.8490, device='cuda:0')
+tensor(0.8171, device='cuda:0')
+tensor(0.7525, device='cuda:0')
+tensor(0.7499, device='cuda:0')
+tensor(0.7908, device='cuda:0')
+tensor(0.8425, device='cuda:0')
+tensor(0.9330, device='cuda:0')
+tensor(0.7395, device='cuda:0')
+tensor(0.9563, device='cuda:0')
+Epoch 51 | Train Loss: 0.7445 | Val Loss: 0.8154
+New best model saved.
+tensor(0.5281, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8251, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9532, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7067, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3850, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7531, device='cuda:0')
+tensor(0.7608, device='cuda:0')
+tensor(0.7666, device='cuda:0')
+tensor(0.7981, device='cuda:0')
+tensor(0.8670, device='cuda:0')
+tensor(0.8304, device='cuda:0')
+tensor(0.8085, device='cuda:0')
+tensor(0.7414, device='cuda:0')
+tensor(0.7457, device='cuda:0')
+tensor(0.7759, device='cuda:0')
+tensor(0.8290, device='cuda:0')
+tensor(0.9007, device='cuda:0')
+tensor(0.7394, device='cuda:0')
+tensor(0.9539, device='cuda:0')
+Epoch 52 | Train Loss: 0.6796 | Val Loss: 0.8050
+New best model saved.
+tensor(0.7759, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4460, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8428, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7493, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7184, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7542, device='cuda:0')
+tensor(0.7600, device='cuda:0')
+tensor(0.7644, device='cuda:0')
+tensor(0.7942, device='cuda:0')
+tensor(0.8749, device='cuda:0')
+tensor(0.8323, device='cuda:0')
+tensor(0.8090, device='cuda:0')
+tensor(0.7429, device='cuda:0')
+tensor(0.7438, device='cuda:0')
+tensor(0.7781, device='cuda:0')
+tensor(0.8339, device='cuda:0')
+tensor(0.9169, device='cuda:0')
+tensor(0.7337, device='cuda:0')
+tensor(0.9582, device='cuda:0')
+Epoch 53 | Train Loss: 0.7065 | Val Loss: 0.8069
+tensor(0.5313, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7099, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7273, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6721, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0158, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7780, device='cuda:0')
+tensor(0.7997, device='cuda:0')
+tensor(0.7843, device='cuda:0')
+tensor(0.8267, device='cuda:0')
+tensor(0.8998, device='cuda:0')
+tensor(0.8434, device='cuda:0')
+tensor(0.8305, device='cuda:0')
+tensor(0.7680, device='cuda:0')
+tensor(0.7617, device='cuda:0')
+tensor(0.7899, device='cuda:0')
+tensor(0.8461, device='cuda:0')
+tensor(0.9082, device='cuda:0')
+tensor(0.7550, device='cuda:0')
+tensor(0.9666, device='cuda:0')
+Epoch 54 | Train Loss: 0.7313 | Val Loss: 0.8256
+tensor(0.5331, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6236, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6441, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9379, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7533, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7424, device='cuda:0')
+tensor(0.7477, device='cuda:0')
+tensor(0.7586, device='cuda:0')
+tensor(0.7867, device='cuda:0')
+tensor(0.8621, device='cuda:0')
+tensor(0.8263, device='cuda:0')
+tensor(0.7967, device='cuda:0')
+tensor(0.7418, device='cuda:0')
+tensor(0.7327, device='cuda:0')
+tensor(0.7660, device='cuda:0')
+tensor(0.8249, device='cuda:0')
+tensor(0.9042, device='cuda:0')
+tensor(0.7219, device='cuda:0')
+tensor(0.9468, device='cuda:0')
+Epoch 55 | Train Loss: 0.6984 | Val Loss: 0.7971
+New best model saved.
+tensor(0.6849, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5056, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7264, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8553, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6550, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7557, device='cuda:0')
+tensor(0.7699, device='cuda:0')
+tensor(0.7701, device='cuda:0')
+tensor(0.8061, device='cuda:0')
+tensor(0.8748, device='cuda:0')
+tensor(0.8349, device='cuda:0')
+tensor(0.8120, device='cuda:0')
+tensor(0.7508, device='cuda:0')
+tensor(0.7447, device='cuda:0')
+tensor(0.7770, device='cuda:0')
+tensor(0.8333, device='cuda:0')
+tensor(0.9015, device='cuda:0')
+tensor(0.7364, device='cuda:0')
+tensor(0.9610, device='cuda:0')
+Epoch 56 | Train Loss: 0.6854 | Val Loss: 0.8092
+tensor(0.4868, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7951, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5202, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7869, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9424, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7481, device='cuda:0')
+tensor(0.7532, device='cuda:0')
+tensor(0.7686, device='cuda:0')
+tensor(0.7965, device='cuda:0')
+tensor(0.8622, device='cuda:0')
+tensor(0.8309, device='cuda:0')
+tensor(0.8042, device='cuda:0')
+tensor(0.7496, device='cuda:0')
+tensor(0.7417, device='cuda:0')
+tensor(0.7748, device='cuda:0')
+tensor(0.8329, device='cuda:0')
+tensor(0.8997, device='cuda:0')
+tensor(0.7309, device='cuda:0')
+tensor(0.9577, device='cuda:0')
+Epoch 57 | Train Loss: 0.7063 | Val Loss: 0.8036
+tensor(0.7619, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6263, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5803, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7441, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6233, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7337, device='cuda:0')
+tensor(0.7608, device='cuda:0')
+tensor(0.7414, device='cuda:0')
+tensor(0.7835, device='cuda:0')
+tensor(0.8479, device='cuda:0')
+tensor(0.8073, device='cuda:0')
+tensor(0.7849, device='cuda:0')
+tensor(0.7129, device='cuda:0')
+tensor(0.7148, device='cuda:0')
+tensor(0.7422, device='cuda:0')
+tensor(0.8023, device='cuda:0')
+tensor(0.8607, device='cuda:0')
+tensor(0.7182, device='cuda:0')
+tensor(0.9199, device='cuda:0')
+Epoch 58 | Train Loss: 0.6672 | Val Loss: 0.7807
+New best model saved.
+tensor(0.6091, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4119, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7364, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7422, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(1.0285, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7350, device='cuda:0')
+tensor(0.7613, device='cuda:0')
+tensor(0.7536, device='cuda:0')
+tensor(0.7844, device='cuda:0')
+tensor(0.8416, device='cuda:0')
+tensor(0.8121, device='cuda:0')
+tensor(0.7918, device='cuda:0')
+tensor(0.7269, device='cuda:0')
+tensor(0.7277, device='cuda:0')
+tensor(0.7617, device='cuda:0')
+tensor(0.8099, device='cuda:0')
+tensor(0.8618, device='cuda:0')
+tensor(0.7287, device='cuda:0')
+tensor(0.9223, device='cuda:0')
+Epoch 59 | Train Loss: 0.7056 | Val Loss: 0.7870
+tensor(0.7300, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6200, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5381, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6431, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9599, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7127, device='cuda:0')
+tensor(0.7439, device='cuda:0')
+tensor(0.7213, device='cuda:0')
+tensor(0.7614, device='cuda:0')
+tensor(0.8228, device='cuda:0')
+tensor(0.7927, device='cuda:0')
+tensor(0.7724, device='cuda:0')
+tensor(0.6800, device='cuda:0')
+tensor(0.7013, device='cuda:0')
+tensor(0.7310, device='cuda:0')
+tensor(0.7775, device='cuda:0')
+tensor(0.8353, device='cuda:0')
+tensor(0.7125, device='cuda:0')
+tensor(0.8737, device='cuda:0')
+Epoch 60 | Train Loss: 0.6982 | Val Loss: 0.7599
+New best model saved.
+tensor(0.8961, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6093, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4619, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6174, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7862, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7142, device='cuda:0')
+tensor(0.7326, device='cuda:0')
+tensor(0.7310, device='cuda:0')
+tensor(0.7660, device='cuda:0')
+tensor(0.8336, device='cuda:0')
+tensor(0.8018, device='cuda:0')
+tensor(0.7759, device='cuda:0')
+tensor(0.6983, device='cuda:0')
+tensor(0.7086, device='cuda:0')
+tensor(0.7353, device='cuda:0')
+tensor(0.7900, device='cuda:0')
+tensor(0.8580, device='cuda:0')
+tensor(0.7094, device='cuda:0')
+tensor(0.8924, device='cuda:0')
+Epoch 61 | Train Loss: 0.6742 | Val Loss: 0.7676
+tensor(0.6075, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7970, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5278, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7187, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6068, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7272, device='cuda:0')
+tensor(0.7545, device='cuda:0')
+tensor(0.7348, device='cuda:0')
+tensor(0.7705, device='cuda:0')
+tensor(0.8393, device='cuda:0')
+tensor(0.7959, device='cuda:0')
+tensor(0.7816, device='cuda:0')
+tensor(0.7021, device='cuda:0')
+tensor(0.7099, device='cuda:0')
+tensor(0.7348, device='cuda:0')
+tensor(0.7899, device='cuda:0')
+tensor(0.8466, device='cuda:0')
+tensor(0.7110, device='cuda:0')
+tensor(0.9004, device='cuda:0')
+Epoch 62 | Train Loss: 0.6516 | Val Loss: 0.7713
+tensor(0.7952, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6189, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6274, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5850, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6191, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7350, device='cuda:0')
+tensor(0.7474, device='cuda:0')
+tensor(0.7506, device='cuda:0')
+tensor(0.7897, device='cuda:0')
+tensor(0.8471, device='cuda:0')
+tensor(0.8140, device='cuda:0')
+tensor(0.7837, device='cuda:0')
+tensor(0.7208, device='cuda:0')
+tensor(0.7130, device='cuda:0')
+tensor(0.7388, device='cuda:0')
+tensor(0.8086, device='cuda:0')
+tensor(0.8784, device='cuda:0')
+tensor(0.7157, device='cuda:0')
+tensor(0.9202, device='cuda:0')
+Epoch 63 | Train Loss: 0.6491 | Val Loss: 0.7831
+tensor(0.6996, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7400, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6866, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5547, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4757, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7153, device='cuda:0')
+tensor(0.7414, device='cuda:0')
+tensor(0.7315, device='cuda:0')
+tensor(0.7664, device='cuda:0')
+tensor(0.8282, device='cuda:0')
+tensor(0.7967, device='cuda:0')
+tensor(0.7734, device='cuda:0')
+tensor(0.7073, device='cuda:0')
+tensor(0.7018, device='cuda:0')
+tensor(0.7297, device='cuda:0')
+tensor(0.7891, device='cuda:0')
+tensor(0.8446, device='cuda:0')
+tensor(0.7072, device='cuda:0')
+tensor(0.8893, device='cuda:0')
+Epoch 64 | Train Loss: 0.6313 | Val Loss: 0.7658
+tensor(0.6719, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6806, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7151, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5227, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5640, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7058, device='cuda:0')
+tensor(0.7128, device='cuda:0')
+tensor(0.7318, device='cuda:0')
+tensor(0.7562, device='cuda:0')
+tensor(0.8222, device='cuda:0')
+tensor(0.7989, device='cuda:0')
+tensor(0.7667, device='cuda:0')
+tensor(0.6781, device='cuda:0')
+tensor(0.6963, device='cuda:0')
+tensor(0.7198, device='cuda:0')
+tensor(0.7751, device='cuda:0')
+tensor(0.8455, device='cuda:0')
+tensor(0.7044, device='cuda:0')
+tensor(0.8666, device='cuda:0')
+Epoch 65 | Train Loss: 0.6309 | Val Loss: 0.7557
+New best model saved.
+tensor(0.6697, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7110, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5001, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6551, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5986, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7095, device='cuda:0')
+tensor(0.7502, device='cuda:0')
+tensor(0.7208, device='cuda:0')
+tensor(0.7616, device='cuda:0')
+tensor(0.8136, device='cuda:0')
+tensor(0.7761, device='cuda:0')
+tensor(0.7685, device='cuda:0')
+tensor(0.6513, device='cuda:0')
+tensor(0.6946, device='cuda:0')
+tensor(0.7123, device='cuda:0')
+tensor(0.7570, device='cuda:0')
+tensor(0.7902, device='cuda:0')
+tensor(0.7191, device='cuda:0')
+tensor(0.8176, device='cuda:0')
+Epoch 66 | Train Loss: 0.6269 | Val Loss: 0.7459
+New best model saved.
+tensor(0.5129, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7302, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4374, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8219, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6315, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6557, device='cuda:0')
+tensor(0.6769, device='cuda:0')
+tensor(0.6819, device='cuda:0')
+tensor(0.7107, device='cuda:0')
+tensor(0.7814, device='cuda:0')
+tensor(0.7457, device='cuda:0')
+tensor(0.7220, device='cuda:0')
+tensor(0.6148, device='cuda:0')
+tensor(0.6364, device='cuda:0')
+tensor(0.6658, device='cuda:0')
+tensor(0.7179, device='cuda:0')
+tensor(0.7867, device='cuda:0')
+tensor(0.6443, device='cuda:0')
+tensor(0.8132, device='cuda:0')
+Epoch 67 | Train Loss: 0.6268 | Val Loss: 0.7038
+New best model saved.
+tensor(0.6313, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6939, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5621, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5040, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7672, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6764, device='cuda:0')
+tensor(0.7081, device='cuda:0')
+tensor(0.6972, device='cuda:0')
+tensor(0.7290, device='cuda:0')
+tensor(0.7759, device='cuda:0')
+tensor(0.7567, device='cuda:0')
+tensor(0.7436, device='cuda:0')
+tensor(0.6582, device='cuda:0')
+tensor(0.6715, device='cuda:0')
+tensor(0.6913, device='cuda:0')
+tensor(0.7505, device='cuda:0')
+tensor(0.7816, device='cuda:0')
+tensor(0.6859, device='cuda:0')
+tensor(0.8384, device='cuda:0')
+Epoch 68 | Train Loss: 0.6317 | Val Loss: 0.7260
+tensor(0.6446, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4951, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5573, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7896, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4707, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6827, device='cuda:0')
+tensor(0.7046, device='cuda:0')
+tensor(0.7135, device='cuda:0')
+tensor(0.7425, device='cuda:0')
+tensor(0.7955, device='cuda:0')
+tensor(0.7746, device='cuda:0')
+tensor(0.7492, device='cuda:0')
+tensor(0.6666, device='cuda:0')
+tensor(0.6753, device='cuda:0')
+tensor(0.7087, device='cuda:0')
+tensor(0.7548, device='cuda:0')
+tensor(0.8064, device='cuda:0')
+tensor(0.6855, device='cuda:0')
+tensor(0.8445, device='cuda:0')
+Epoch 69 | Train Loss: 0.5915 | Val Loss: 0.7360
+tensor(0.6963, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8003, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4117, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5105, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6101, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6676, device='cuda:0')
+tensor(0.7018, device='cuda:0')
+tensor(0.6811, device='cuda:0')
+tensor(0.7227, device='cuda:0')
+tensor(0.7823, device='cuda:0')
+tensor(0.7502, device='cuda:0')
+tensor(0.7310, device='cuda:0')
+tensor(0.6096, device='cuda:0')
+tensor(0.6481, device='cuda:0')
+tensor(0.6704, device='cuda:0')
+tensor(0.7242, device='cuda:0')
+tensor(0.7754, device='cuda:0')
+tensor(0.6701, device='cuda:0')
+tensor(0.8029, device='cuda:0')
+Epoch 70 | Train Loss: 0.6058 | Val Loss: 0.7098
+tensor(0.8762, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6844, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4819, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4221, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4631, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6466, device='cuda:0')
+tensor(0.6740, device='cuda:0')
+tensor(0.6747, device='cuda:0')
+tensor(0.7147, device='cuda:0')
+tensor(0.7675, device='cuda:0')
+tensor(0.7450, device='cuda:0')
+tensor(0.7154, device='cuda:0')
+tensor(0.6251, device='cuda:0')
+tensor(0.6327, device='cuda:0')
+tensor(0.6627, device='cuda:0')
+tensor(0.7239, device='cuda:0')
+tensor(0.7770, device='cuda:0')
+tensor(0.6494, device='cuda:0')
+tensor(0.8213, device='cuda:0')
+Epoch 71 | Train Loss: 0.5856 | Val Loss: 0.7021
+New best model saved.
+tensor(0.7052, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6017, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5642, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5624, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4135, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6524, device='cuda:0')
+tensor(0.6938, device='cuda:0')
+tensor(0.6746, device='cuda:0')
+tensor(0.7149, device='cuda:0')
+tensor(0.7602, device='cuda:0')
+tensor(0.7422, device='cuda:0')
+tensor(0.7204, device='cuda:0')
+tensor(0.6192, device='cuda:0')
+tensor(0.6364, device='cuda:0')
+tensor(0.6553, device='cuda:0')
+tensor(0.7193, device='cuda:0')
+tensor(0.7561, device='cuda:0')
+tensor(0.6629, device='cuda:0')
+tensor(0.7941, device='cuda:0')
+Epoch 72 | Train Loss: 0.5694 | Val Loss: 0.7001
+New best model saved.
+tensor(0.7629, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7671, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4951, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4644, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2981, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6155, device='cuda:0')
+tensor(0.6443, device='cuda:0')
+tensor(0.6368, device='cuda:0')
+tensor(0.6825, device='cuda:0')
+tensor(0.7333, device='cuda:0')
+tensor(0.7075, device='cuda:0')
+tensor(0.6774, device='cuda:0')
+tensor(0.5703, device='cuda:0')
+tensor(0.5834, device='cuda:0')
+tensor(0.6085, device='cuda:0')
+tensor(0.6743, device='cuda:0')
+tensor(0.7271, device='cuda:0')
+tensor(0.6064, device='cuda:0')
+tensor(0.7770, device='cuda:0')
+Epoch 73 | Train Loss: 0.5575 | Val Loss: 0.6603
+New best model saved.
+tensor(0.9375, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4647, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5044, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5705, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2985, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6273, device='cuda:0')
+tensor(0.6649, device='cuda:0')
+tensor(0.6506, device='cuda:0')
+tensor(0.6851, device='cuda:0')
+tensor(0.7224, device='cuda:0')
+tensor(0.7132, device='cuda:0')
+tensor(0.6932, device='cuda:0')
+tensor(0.5965, device='cuda:0')
+tensor(0.6105, device='cuda:0')
+tensor(0.6257, device='cuda:0')
+tensor(0.6947, device='cuda:0')
+tensor(0.7157, device='cuda:0')
+tensor(0.6374, device='cuda:0')
+tensor(0.7785, device='cuda:0')
+Epoch 74 | Train Loss: 0.5551 | Val Loss: 0.6726
+tensor(0.5652, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5681, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6922, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4591, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5050, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6456, device='cuda:0')
+tensor(0.6801, device='cuda:0')
+tensor(0.6665, device='cuda:0')
+tensor(0.7092, device='cuda:0')
+tensor(0.7468, device='cuda:0')
+tensor(0.7378, device='cuda:0')
+tensor(0.7120, device='cuda:0')
+tensor(0.6141, device='cuda:0')
+tensor(0.6201, device='cuda:0')
+tensor(0.6506, device='cuda:0')
+tensor(0.7073, device='cuda:0')
+tensor(0.7431, device='cuda:0')
+tensor(0.6526, device='cuda:0')
+tensor(0.7889, device='cuda:0')
+Epoch 75 | Train Loss: 0.5579 | Val Loss: 0.6911
+tensor(0.7274, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5373, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5834, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4254, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4969, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6057, device='cuda:0')
+tensor(0.6560, device='cuda:0')
+tensor(0.6275, device='cuda:0')
+tensor(0.6679, device='cuda:0')
+tensor(0.6902, device='cuda:0')
+tensor(0.6937, device='cuda:0')
+tensor(0.6730, device='cuda:0')
+tensor(0.5780, device='cuda:0')
+tensor(0.5925, device='cuda:0')
+tensor(0.6072, device='cuda:0')
+tensor(0.6682, device='cuda:0')
+tensor(0.6751, device='cuda:0')
+tensor(0.6317, device='cuda:0')
+tensor(0.7299, device='cuda:0')
+Epoch 76 | Train Loss: 0.5541 | Val Loss: 0.6497
+New best model saved.
+tensor(0.4267, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6565, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6685, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6178, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2787, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5942, device='cuda:0')
+tensor(0.6293, device='cuda:0')
+tensor(0.6197, device='cuda:0')
+tensor(0.6683, device='cuda:0')
+tensor(0.7085, device='cuda:0')
+tensor(0.6879, device='cuda:0')
+tensor(0.6610, device='cuda:0')
+tensor(0.5332, device='cuda:0')
+tensor(0.5563, device='cuda:0')
+tensor(0.5823, device='cuda:0')
+tensor(0.6405, device='cuda:0')
+tensor(0.6811, device='cuda:0')
+tensor(0.5914, device='cuda:0')
+tensor(0.7162, device='cuda:0')
+Epoch 77 | Train Loss: 0.5297 | Val Loss: 0.6336
+New best model saved.
+tensor(0.6690, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3958, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6851, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5578, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3776, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6136, device='cuda:0')
+tensor(0.6556, device='cuda:0')
+tensor(0.6474, device='cuda:0')
+tensor(0.6825, device='cuda:0')
+tensor(0.7107, device='cuda:0')
+tensor(0.7056, device='cuda:0')
+tensor(0.6885, device='cuda:0')
+tensor(0.5907, device='cuda:0')
+tensor(0.6073, device='cuda:0')
+tensor(0.6229, device='cuda:0')
+tensor(0.6842, device='cuda:0')
+tensor(0.6922, device='cuda:0')
+tensor(0.6378, device='cuda:0')
+tensor(0.7600, device='cuda:0')
+Epoch 78 | Train Loss: 0.5371 | Val Loss: 0.6642
+tensor(0.5884, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4433, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7237, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3549, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7188, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6244, device='cuda:0')
+tensor(0.6633, device='cuda:0')
+tensor(0.6457, device='cuda:0')
+tensor(0.6820, device='cuda:0')
+tensor(0.7205, device='cuda:0')
+tensor(0.7011, device='cuda:0')
+tensor(0.6924, device='cuda:0')
+tensor(0.5856, device='cuda:0')
+tensor(0.6074, device='cuda:0')
+tensor(0.6190, device='cuda:0')
+tensor(0.6821, device='cuda:0')
+tensor(0.7001, device='cuda:0')
+tensor(0.6386, device='cuda:0')
+tensor(0.7522, device='cuda:0')
+Epoch 79 | Train Loss: 0.5658 | Val Loss: 0.6653
+tensor(0.4422, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4839, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4974, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5127, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.9196, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6284, device='cuda:0')
+tensor(0.6707, device='cuda:0')
+tensor(0.6479, device='cuda:0')
+tensor(0.6870, device='cuda:0')
+tensor(0.7299, device='cuda:0')
+tensor(0.7124, device='cuda:0')
+tensor(0.7050, device='cuda:0')
+tensor(0.5664, device='cuda:0')
+tensor(0.6204, device='cuda:0')
+tensor(0.6342, device='cuda:0')
+tensor(0.6835, device='cuda:0')
+tensor(0.6997, device='cuda:0')
+tensor(0.6522, device='cuda:0')
+tensor(0.7277, device='cuda:0')
+Epoch 80 | Train Loss: 0.5712 | Val Loss: 0.6689
+tensor(0.3470, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6162, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6062, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5584, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5100, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5979, device='cuda:0')
+tensor(0.6441, device='cuda:0')
+tensor(0.6233, device='cuda:0')
+tensor(0.6637, device='cuda:0')
+tensor(0.6995, device='cuda:0')
+tensor(0.6926, device='cuda:0')
+tensor(0.6756, device='cuda:0')
+tensor(0.5571, device='cuda:0')
+tensor(0.5843, device='cuda:0')
+tensor(0.5985, device='cuda:0')
+tensor(0.6586, device='cuda:0')
+tensor(0.6737, device='cuda:0')
+tensor(0.6237, device='cuda:0')
+tensor(0.6960, device='cuda:0')
+Epoch 81 | Train Loss: 0.5276 | Val Loss: 0.6420
+tensor(0.5481, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5392, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5723, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4531, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4441, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6082, device='cuda:0')
+tensor(0.6637, device='cuda:0')
+tensor(0.6307, device='cuda:0')
+tensor(0.6774, device='cuda:0')
+tensor(0.6901, device='cuda:0')
+tensor(0.6953, device='cuda:0')
+tensor(0.6731, device='cuda:0')
+tensor(0.5736, device='cuda:0')
+tensor(0.5824, device='cuda:0')
+tensor(0.5879, device='cuda:0')
+tensor(0.6617, device='cuda:0')
+tensor(0.6615, device='cuda:0')
+tensor(0.6323, device='cuda:0')
+tensor(0.7035, device='cuda:0')
+Epoch 82 | Train Loss: 0.5114 | Val Loss: 0.6458
+tensor(0.6691, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5513, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5610, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4257, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2505, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5733, device='cuda:0')
+tensor(0.6162, device='cuda:0')
+tensor(0.5993, device='cuda:0')
+tensor(0.6345, device='cuda:0')
+tensor(0.6703, device='cuda:0')
+tensor(0.6638, device='cuda:0')
+tensor(0.6427, device='cuda:0')
+tensor(0.5124, device='cuda:0')
+tensor(0.5521, device='cuda:0')
+tensor(0.5716, device='cuda:0')
+tensor(0.6235, device='cuda:0')
+tensor(0.6435, device='cuda:0')
+tensor(0.5931, device='cuda:0')
+tensor(0.6738, device='cuda:0')
+Epoch 83 | Train Loss: 0.4915 | Val Loss: 0.6122
+New best model saved.
+tensor(0.4021, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5523, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4665, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5607, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5963, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6070, device='cuda:0')
+tensor(0.6431, device='cuda:0')
+tensor(0.6386, device='cuda:0')
+tensor(0.6829, device='cuda:0')
+tensor(0.7108, device='cuda:0')
+tensor(0.7033, device='cuda:0')
+tensor(0.6745, device='cuda:0')
+tensor(0.5722, device='cuda:0')
+tensor(0.5776, device='cuda:0')
+tensor(0.5928, device='cuda:0')
+tensor(0.6673, device='cuda:0')
+tensor(0.7000, device='cuda:0')
+tensor(0.6173, device='cuda:0')
+tensor(0.7281, device='cuda:0')
+Epoch 84 | Train Loss: 0.5156 | Val Loss: 0.6511
+tensor(0.4510, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4829, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3964, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6233, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6068, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6047, device='cuda:0')
+tensor(0.6645, device='cuda:0')
+tensor(0.6247, device='cuda:0')
+tensor(0.6713, device='cuda:0')
+tensor(0.6739, device='cuda:0')
+tensor(0.6850, device='cuda:0')
+tensor(0.6743, device='cuda:0')
+tensor(0.5611, device='cuda:0')
+tensor(0.5854, device='cuda:0')
+tensor(0.5963, device='cuda:0')
+tensor(0.6559, device='cuda:0')
+tensor(0.6269, device='cuda:0')
+tensor(0.6432, device='cuda:0')
+tensor(0.6926, device='cuda:0')
+Epoch 85 | Train Loss: 0.5121 | Val Loss: 0.6400
+tensor(0.4553, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5135, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6188, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4846, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3275, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5173, device='cuda:0')
+tensor(0.5623, device='cuda:0')
+tensor(0.5458, device='cuda:0')
+tensor(0.5826, device='cuda:0')
+tensor(0.6100, device='cuda:0')
+tensor(0.6088, device='cuda:0')
+tensor(0.5920, device='cuda:0')
+tensor(0.4838, device='cuda:0')
+tensor(0.4958, device='cuda:0')
+tensor(0.5088, device='cuda:0')
+tensor(0.5767, device='cuda:0')
+tensor(0.5794, device='cuda:0')
+tensor(0.5256, device='cuda:0')
+tensor(0.6397, device='cuda:0')
+Epoch 86 | Train Loss: 0.4800 | Val Loss: 0.5592
+New best model saved.
+tensor(0.5045, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5744, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5469, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3898, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4253, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5754, device='cuda:0')
+tensor(0.6249, device='cuda:0')
+tensor(0.6078, device='cuda:0')
+tensor(0.6401, device='cuda:0')
+tensor(0.6584, device='cuda:0')
+tensor(0.6543, device='cuda:0')
+tensor(0.6507, device='cuda:0')
+tensor(0.5295, device='cuda:0')
+tensor(0.5630, device='cuda:0')
+tensor(0.5727, device='cuda:0')
+tensor(0.6292, device='cuda:0')
+tensor(0.6129, device='cuda:0')
+tensor(0.6035, device='cuda:0')
+tensor(0.6775, device='cuda:0')
+Epoch 87 | Train Loss: 0.4882 | Val Loss: 0.6143
+tensor(0.4250, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3705, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5586, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4256, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.8014, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5553, device='cuda:0')
+tensor(0.6133, device='cuda:0')
+tensor(0.5785, device='cuda:0')
+tensor(0.6282, device='cuda:0')
+tensor(0.6535, device='cuda:0')
+tensor(0.6451, device='cuda:0')
+tensor(0.6308, device='cuda:0')
+tensor(0.5039, device='cuda:0')
+tensor(0.5309, device='cuda:0')
+tensor(0.5407, device='cuda:0')
+tensor(0.6072, device='cuda:0')
+tensor(0.6034, device='cuda:0')
+tensor(0.5720, device='cuda:0')
+tensor(0.6626, device='cuda:0')
+Epoch 88 | Train Loss: 0.5162 | Val Loss: 0.5947
+tensor(0.6190, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3236, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3961, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5984, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4307, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5124, device='cuda:0')
+tensor(0.5662, device='cuda:0')
+tensor(0.5422, device='cuda:0')
+tensor(0.5727, device='cuda:0')
+tensor(0.5925, device='cuda:0')
+tensor(0.5967, device='cuda:0')
+tensor(0.5943, device='cuda:0')
+tensor(0.4568, device='cuda:0')
+tensor(0.4995, device='cuda:0')
+tensor(0.5110, device='cuda:0')
+tensor(0.5570, device='cuda:0')
+tensor(0.5302, device='cuda:0')
+tensor(0.5476, device='cuda:0')
+tensor(0.5699, device='cuda:0')
+Epoch 89 | Train Loss: 0.4736 | Val Loss: 0.5464
+New best model saved.
+tensor(0.4496, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5431, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3811, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5813, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3265, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5769, device='cuda:0')
+tensor(0.6344, device='cuda:0')
+tensor(0.5901, device='cuda:0')
+tensor(0.6310, device='cuda:0')
+tensor(0.6364, device='cuda:0')
+tensor(0.6484, device='cuda:0')
+tensor(0.6614, device='cuda:0')
+tensor(0.5207, device='cuda:0')
+tensor(0.5789, device='cuda:0')
+tensor(0.5858, device='cuda:0')
+tensor(0.6306, device='cuda:0')
+tensor(0.5881, device='cuda:0')
+tensor(0.6222, device='cuda:0')
+tensor(0.6461, device='cuda:0')
+Epoch 90 | Train Loss: 0.4563 | Val Loss: 0.6108
+tensor(0.4438, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7427, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2990, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4351, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3925, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5093, device='cuda:0')
+tensor(0.5591, device='cuda:0')
+tensor(0.5400, device='cuda:0')
+tensor(0.5840, device='cuda:0')
+tensor(0.5916, device='cuda:0')
+tensor(0.5958, device='cuda:0')
+tensor(0.5863, device='cuda:0')
+tensor(0.4807, device='cuda:0')
+tensor(0.4809, device='cuda:0')
+tensor(0.4965, device='cuda:0')
+tensor(0.5670, device='cuda:0')
+tensor(0.5515, device='cuda:0')
+tensor(0.5150, device='cuda:0')
+tensor(0.6524, device='cuda:0')
+Epoch 91 | Train Loss: 0.4626 | Val Loss: 0.5507
+tensor(0.4211, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3317, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4727, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6356, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3961, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5296, device='cuda:0')
+tensor(0.5827, device='cuda:0')
+tensor(0.5543, device='cuda:0')
+tensor(0.5926, device='cuda:0')
+tensor(0.6027, device='cuda:0')
+tensor(0.6067, device='cuda:0')
+tensor(0.6034, device='cuda:0')
+tensor(0.4683, device='cuda:0')
+tensor(0.5039, device='cuda:0')
+tensor(0.5068, device='cuda:0')
+tensor(0.5717, device='cuda:0')
+tensor(0.5475, device='cuda:0')
+tensor(0.5513, device='cuda:0')
+tensor(0.6087, device='cuda:0')
+Epoch 92 | Train Loss: 0.4514 | Val Loss: 0.5593
+tensor(0.3873, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4281, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6458, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5082, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2176, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5077, device='cuda:0')
+tensor(0.5634, device='cuda:0')
+tensor(0.5379, device='cuda:0')
+tensor(0.5758, device='cuda:0')
+tensor(0.5870, device='cuda:0')
+tensor(0.5996, device='cuda:0')
+tensor(0.5910, device='cuda:0')
+tensor(0.4530, device='cuda:0')
+tensor(0.4934, device='cuda:0')
+tensor(0.5081, device='cuda:0')
+tensor(0.5604, device='cuda:0')
+tensor(0.5383, device='cuda:0')
+tensor(0.5450, device='cuda:0')
+tensor(0.5876, device='cuda:0')
+Epoch 93 | Train Loss: 0.4374 | Val Loss: 0.5463
+New best model saved.
+tensor(0.5942, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4075, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2127, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6005, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6077, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5320, device='cuda:0')
+tensor(0.5856, device='cuda:0')
+tensor(0.5645, device='cuda:0')
+tensor(0.5976, device='cuda:0')
+tensor(0.6190, device='cuda:0')
+tensor(0.6197, device='cuda:0')
+tensor(0.6200, device='cuda:0')
+tensor(0.4820, device='cuda:0')
+tensor(0.5206, device='cuda:0')
+tensor(0.5278, device='cuda:0')
+tensor(0.5881, device='cuda:0')
+tensor(0.5698, device='cuda:0')
+tensor(0.5631, device='cuda:0')
+tensor(0.6294, device='cuda:0')
+Epoch 94 | Train Loss: 0.4845 | Val Loss: 0.5728
+tensor(0.4715, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4219, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5319, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2757, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6075, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5557, device='cuda:0')
+tensor(0.6027, device='cuda:0')
+tensor(0.5878, device='cuda:0')
+tensor(0.6277, device='cuda:0')
+tensor(0.6416, device='cuda:0')
+tensor(0.6437, device='cuda:0')
+tensor(0.6412, device='cuda:0')
+tensor(0.5148, device='cuda:0')
+tensor(0.5371, device='cuda:0')
+tensor(0.5350, device='cuda:0')
+tensor(0.6135, device='cuda:0')
+tensor(0.5949, device='cuda:0')
+tensor(0.5805, device='cuda:0')
+tensor(0.6392, device='cuda:0')
+Epoch 95 | Train Loss: 0.4617 | Val Loss: 0.5940
+tensor(0.3306, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3709, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7302, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4850, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2092, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4940, device='cuda:0')
+tensor(0.5558, device='cuda:0')
+tensor(0.5206, device='cuda:0')
+tensor(0.5690, device='cuda:0')
+tensor(0.5719, device='cuda:0')
+tensor(0.5822, device='cuda:0')
+tensor(0.5713, device='cuda:0')
+tensor(0.4530, device='cuda:0')
+tensor(0.4657, device='cuda:0')
+tensor(0.4695, device='cuda:0')
+tensor(0.5449, device='cuda:0')
+tensor(0.5145, device='cuda:0')
+tensor(0.5108, device='cuda:0')
+tensor(0.5868, device='cuda:0')
+Epoch 96 | Train Loss: 0.4252 | Val Loss: 0.5293
+New best model saved.
+tensor(0.3184, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4606, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4592, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4491, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4497, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5383, device='cuda:0')
+tensor(0.6034, device='cuda:0')
+tensor(0.5633, device='cuda:0')
+tensor(0.6023, device='cuda:0')
+tensor(0.6086, device='cuda:0')
+tensor(0.6207, device='cuda:0')
+tensor(0.6285, device='cuda:0')
+tensor(0.4787, device='cuda:0')
+tensor(0.5314, device='cuda:0')
+tensor(0.5250, device='cuda:0')
+tensor(0.5854, device='cuda:0')
+tensor(0.5404, device='cuda:0')
+tensor(0.5925, device='cuda:0')
+tensor(0.5668, device='cuda:0')
+Epoch 97 | Train Loss: 0.4274 | Val Loss: 0.5704
+tensor(0.3320, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5522, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3380, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5062, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3608, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5104, device='cuda:0')
+tensor(0.5684, device='cuda:0')
+tensor(0.5312, device='cuda:0')
+tensor(0.5824, device='cuda:0')
+tensor(0.5817, device='cuda:0')
+tensor(0.5876, device='cuda:0')
+tensor(0.5870, device='cuda:0')
+tensor(0.4760, device='cuda:0')
+tensor(0.4814, device='cuda:0')
+tensor(0.4900, device='cuda:0')
+tensor(0.5529, device='cuda:0')
+tensor(0.5198, device='cuda:0')
+tensor(0.5269, device='cuda:0')
+tensor(0.5954, device='cuda:0')
+Epoch 98 | Train Loss: 0.4179 | Val Loss: 0.5422
+tensor(0.4842, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6296, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2829, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3169, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3564, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5189, device='cuda:0')
+tensor(0.5768, device='cuda:0')
+tensor(0.5320, device='cuda:0')
+tensor(0.5761, device='cuda:0')
+tensor(0.5825, device='cuda:0')
+tensor(0.5895, device='cuda:0')
+tensor(0.5962, device='cuda:0')
+tensor(0.4625, device='cuda:0')
+tensor(0.5034, device='cuda:0')
+tensor(0.4998, device='cuda:0')
+tensor(0.5600, device='cuda:0')
+tensor(0.5213, device='cuda:0')
+tensor(0.5509, device='cuda:0')
+tensor(0.5677, device='cuda:0')
+Epoch 99 | Train Loss: 0.4140 | Val Loss: 0.5455
+tensor(0.3813, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4901, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4351, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3431, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4136, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5175, device='cuda:0')
+tensor(0.5799, device='cuda:0')
+tensor(0.5428, device='cuda:0')
+tensor(0.5921, device='cuda:0')
+tensor(0.5749, device='cuda:0')
+tensor(0.5973, device='cuda:0')
+tensor(0.6071, device='cuda:0')
+tensor(0.4764, device='cuda:0')
+tensor(0.5092, device='cuda:0')
+tensor(0.5136, device='cuda:0')
+tensor(0.5624, device='cuda:0')
+tensor(0.5074, device='cuda:0')
+tensor(0.5633, device='cuda:0')
+tensor(0.5528, device='cuda:0')
+Epoch 100 | Train Loss: 0.4127 | Val Loss: 0.5498
+tensor(0.3200, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4999, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5704, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3944, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2078, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4983, device='cuda:0')
+tensor(0.5577, device='cuda:0')
+tensor(0.5215, device='cuda:0')
+tensor(0.5624, device='cuda:0')
+tensor(0.5737, device='cuda:0')
+tensor(0.5781, device='cuda:0')
+tensor(0.5792, device='cuda:0')
+tensor(0.4365, device='cuda:0')
+tensor(0.4792, device='cuda:0')
+tensor(0.4753, device='cuda:0')
+tensor(0.5389, device='cuda:0')
+tensor(0.5064, device='cuda:0')
+tensor(0.5268, device='cuda:0')
+tensor(0.5552, device='cuda:0')
+Epoch 101 | Train Loss: 0.3985 | Val Loss: 0.5278
+New best model saved.
+tensor(0.4431, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5001, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2222, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5221, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3936, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4969, device='cuda:0')
+tensor(0.5539, device='cuda:0')
+tensor(0.5288, device='cuda:0')
+tensor(0.5696, device='cuda:0')
+tensor(0.5779, device='cuda:0')
+tensor(0.5934, device='cuda:0')
+tensor(0.5806, device='cuda:0')
+tensor(0.4538, device='cuda:0')
+tensor(0.4781, device='cuda:0')
+tensor(0.4878, device='cuda:0')
+tensor(0.5499, device='cuda:0')
+tensor(0.5277, device='cuda:0')
+tensor(0.5307, device='cuda:0')
+tensor(0.5758, device='cuda:0')
+Epoch 102 | Train Loss: 0.4162 | Val Loss: 0.5360
+tensor(0.3654, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3786, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5634, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2805, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5042, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5212, device='cuda:0')
+tensor(0.5872, device='cuda:0')
+tensor(0.5437, device='cuda:0')
+tensor(0.5876, device='cuda:0')
+tensor(0.5898, device='cuda:0')
+tensor(0.5932, device='cuda:0')
+tensor(0.6059, device='cuda:0')
+tensor(0.4591, device='cuda:0')
+tensor(0.5016, device='cuda:0')
+tensor(0.4991, device='cuda:0')
+tensor(0.5548, device='cuda:0')
+tensor(0.5074, device='cuda:0')
+tensor(0.5609, device='cuda:0')
+tensor(0.5658, device='cuda:0')
+Epoch 103 | Train Loss: 0.4184 | Val Loss: 0.5484
+tensor(0.4376, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4312, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5620, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3063, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1848, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4701, device='cuda:0')
+tensor(0.5359, device='cuda:0')
+tensor(0.4933, device='cuda:0')
+tensor(0.5394, device='cuda:0')
+tensor(0.5338, device='cuda:0')
+tensor(0.5478, device='cuda:0')
+tensor(0.5524, device='cuda:0')
+tensor(0.4312, device='cuda:0')
+tensor(0.4471, device='cuda:0')
+tensor(0.4507, device='cuda:0')
+tensor(0.5146, device='cuda:0')
+tensor(0.4665, device='cuda:0')
+tensor(0.4951, device='cuda:0')
+tensor(0.5373, device='cuda:0')
+Epoch 104 | Train Loss: 0.3844 | Val Loss: 0.5011
+New best model saved.
+tensor(0.2505, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4849, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7294, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2487, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2699, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4592, device='cuda:0')
+tensor(0.5131, device='cuda:0')
+tensor(0.4866, device='cuda:0')
+tensor(0.5278, device='cuda:0')
+tensor(0.5228, device='cuda:0')
+tensor(0.5397, device='cuda:0')
+tensor(0.5422, device='cuda:0')
+tensor(0.4243, device='cuda:0')
+tensor(0.4347, device='cuda:0')
+tensor(0.4441, device='cuda:0')
+tensor(0.5082, device='cuda:0')
+tensor(0.4789, device='cuda:0')
+tensor(0.4746, device='cuda:0')
+tensor(0.5258, device='cuda:0')
+Epoch 105 | Train Loss: 0.3967 | Val Loss: 0.4916
+New best model saved.
+tensor(0.5276, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3306, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3418, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3548, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4000, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5056, device='cuda:0')
+tensor(0.5627, device='cuda:0')
+tensor(0.5329, device='cuda:0')
+tensor(0.5790, device='cuda:0')
+tensor(0.5560, device='cuda:0')
+tensor(0.5848, device='cuda:0')
+tensor(0.5961, device='cuda:0')
+tensor(0.4709, device='cuda:0')
+tensor(0.4904, device='cuda:0')
+tensor(0.4848, device='cuda:0')
+tensor(0.5560, device='cuda:0')
+tensor(0.4929, device='cuda:0')
+tensor(0.5413, device='cuda:0')
+tensor(0.5438, device='cuda:0')
+Epoch 106 | Train Loss: 0.3910 | Val Loss: 0.5355
+tensor(0.4952, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2416, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3211, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4354, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4960, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4887, device='cuda:0')
+tensor(0.5581, device='cuda:0')
+tensor(0.5075, device='cuda:0')
+tensor(0.5576, device='cuda:0')
+tensor(0.5433, device='cuda:0')
+tensor(0.5570, device='cuda:0')
+tensor(0.5658, device='cuda:0')
+tensor(0.4503, device='cuda:0')
+tensor(0.4536, device='cuda:0')
+tensor(0.4507, device='cuda:0')
+tensor(0.5214, device='cuda:0')
+tensor(0.4676, device='cuda:0')
+tensor(0.4981, device='cuda:0')
+tensor(0.5552, device='cuda:0')
+Epoch 107 | Train Loss: 0.3978 | Val Loss: 0.5125
+tensor(0.4027, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.7147, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2016, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3529, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2386, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4699, device='cuda:0')
+tensor(0.5329, device='cuda:0')
+tensor(0.4835, device='cuda:0')
+tensor(0.5259, device='cuda:0')
+tensor(0.5270, device='cuda:0')
+tensor(0.5391, device='cuda:0')
+tensor(0.5500, device='cuda:0')
+tensor(0.4086, device='cuda:0')
+tensor(0.4528, device='cuda:0')
+tensor(0.4572, device='cuda:0')
+tensor(0.5012, device='cuda:0')
+tensor(0.4651, device='cuda:0')
+tensor(0.5001, device='cuda:0')
+tensor(0.4930, device='cuda:0')
+Epoch 108 | Train Loss: 0.3821 | Val Loss: 0.4933
+tensor(0.5651, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3908, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2560, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2288, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6052, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4841, device='cuda:0')
+tensor(0.5494, device='cuda:0')
+tensor(0.5082, device='cuda:0')
+tensor(0.5452, device='cuda:0')
+tensor(0.5330, device='cuda:0')
+tensor(0.5477, device='cuda:0')
+tensor(0.5696, device='cuda:0')
+tensor(0.4316, device='cuda:0')
+tensor(0.4733, device='cuda:0')
+tensor(0.4667, device='cuda:0')
+tensor(0.5168, device='cuda:0')
+tensor(0.4471, device='cuda:0')
+tensor(0.5265, device='cuda:0')
+tensor(0.5142, device='cuda:0')
+Epoch 109 | Train Loss: 0.4092 | Val Loss: 0.5081
+tensor(0.3202, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5382, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3006, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3496, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2731, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4387, device='cuda:0')
+tensor(0.4939, device='cuda:0')
+tensor(0.4758, device='cuda:0')
+tensor(0.5076, device='cuda:0')
+tensor(0.5061, device='cuda:0')
+tensor(0.5287, device='cuda:0')
+tensor(0.5333, device='cuda:0')
+tensor(0.3991, device='cuda:0')
+tensor(0.4271, device='cuda:0')
+tensor(0.4244, device='cuda:0')
+tensor(0.4863, device='cuda:0')
+tensor(0.4406, device='cuda:0')
+tensor(0.4725, device='cuda:0')
+tensor(0.4820, device='cuda:0')
+Epoch 110 | Train Loss: 0.3563 | Val Loss: 0.4726
+New best model saved.
+tensor(0.1963, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3659, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.6070, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3445, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3055, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5066, device='cuda:0')
+tensor(0.5791, device='cuda:0')
+tensor(0.5197, device='cuda:0')
+tensor(0.5544, device='cuda:0')
+tensor(0.5562, device='cuda:0')
+tensor(0.5713, device='cuda:0')
+tensor(0.6012, device='cuda:0')
+tensor(0.4393, device='cuda:0')
+tensor(0.5231, device='cuda:0')
+tensor(0.5119, device='cuda:0')
+tensor(0.5452, device='cuda:0')
+tensor(0.4727, device='cuda:0')
+tensor(0.5692, device='cuda:0')
+tensor(0.5034, device='cuda:0')
+Epoch 111 | Train Loss: 0.3639 | Val Loss: 0.5324
+tensor(0.5950, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2652, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2724, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2486, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5468, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4856, device='cuda:0')
+tensor(0.5271, device='cuda:0')
+tensor(0.5226, device='cuda:0')
+tensor(0.5495, device='cuda:0')
+tensor(0.5490, device='cuda:0')
+tensor(0.5696, device='cuda:0')
+tensor(0.5759, device='cuda:0')
+tensor(0.4381, device='cuda:0')
+tensor(0.4830, device='cuda:0')
+tensor(0.4811, device='cuda:0')
+tensor(0.5317, device='cuda:0')
+tensor(0.4954, device='cuda:0')
+tensor(0.5277, device='cuda:0')
+tensor(0.5232, device='cuda:0')
+Epoch 112 | Train Loss: 0.3856 | Val Loss: 0.5186
+tensor(0.3149, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3358, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4304, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2255, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5825, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4831, device='cuda:0')
+tensor(0.5373, device='cuda:0')
+tensor(0.5007, device='cuda:0')
+tensor(0.5420, device='cuda:0')
+tensor(0.5313, device='cuda:0')
+tensor(0.5479, device='cuda:0')
+tensor(0.5690, device='cuda:0')
+tensor(0.4309, device='cuda:0')
+tensor(0.4714, device='cuda:0')
+tensor(0.4667, device='cuda:0')
+tensor(0.5203, device='cuda:0')
+tensor(0.4586, device='cuda:0')
+tensor(0.5184, device='cuda:0')
+tensor(0.5074, device='cuda:0')
+Epoch 113 | Train Loss: 0.3778 | Val Loss: 0.5061
+tensor(0.2169, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4185, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2249, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5757, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3633, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4109, device='cuda:0')
+tensor(0.4772, device='cuda:0')
+tensor(0.4362, device='cuda:0')
+tensor(0.4817, device='cuda:0')
+tensor(0.4693, device='cuda:0')
+tensor(0.5002, device='cuda:0')
+tensor(0.5011, device='cuda:0')
+tensor(0.3748, device='cuda:0')
+tensor(0.3933, device='cuda:0')
+tensor(0.3970, device='cuda:0')
+tensor(0.4580, device='cuda:0')
+tensor(0.4007, device='cuda:0')
+tensor(0.4314, device='cuda:0')
+tensor(0.4541, device='cuda:0')
+Epoch 114 | Train Loss: 0.3599 | Val Loss: 0.4419
+New best model saved.
+tensor(0.2735, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1859, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3946, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5971, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3471, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4473, device='cuda:0')
+tensor(0.5193, device='cuda:0')
+tensor(0.4715, device='cuda:0')
+tensor(0.5246, device='cuda:0')
+tensor(0.5084, device='cuda:0')
+tensor(0.5230, device='cuda:0')
+tensor(0.5313, device='cuda:0')
+tensor(0.4254, device='cuda:0')
+tensor(0.4147, device='cuda:0')
+tensor(0.4106, device='cuda:0')
+tensor(0.4932, device='cuda:0')
+tensor(0.4344, device='cuda:0')
+tensor(0.4527, device='cuda:0')
+tensor(0.5286, device='cuda:0')
+Epoch 115 | Train Loss: 0.3596 | Val Loss: 0.4775
+tensor(0.5113, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3067, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2478, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2405, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4681, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4738, device='cuda:0')
+tensor(0.5295, device='cuda:0')
+tensor(0.5084, device='cuda:0')
+tensor(0.5316, device='cuda:0')
+tensor(0.5293, device='cuda:0')
+tensor(0.5490, device='cuda:0')
+tensor(0.5695, device='cuda:0')
+tensor(0.4170, device='cuda:0')
+tensor(0.4685, device='cuda:0')
+tensor(0.4738, device='cuda:0')
+tensor(0.5144, device='cuda:0')
+tensor(0.4551, device='cuda:0')
+tensor(0.5228, device='cuda:0')
+tensor(0.4947, device='cuda:0')
+Epoch 116 | Train Loss: 0.3549 | Val Loss: 0.5027
+tensor(0.3526, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3258, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3291, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4342, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1553, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4987, device='cuda:0')
+tensor(0.5693, device='cuda:0')
+tensor(0.5164, device='cuda:0')
+tensor(0.5517, device='cuda:0')
+tensor(0.5335, device='cuda:0')
+tensor(0.5556, device='cuda:0')
+tensor(0.5904, device='cuda:0')
+tensor(0.4592, device='cuda:0')
+tensor(0.4990, device='cuda:0')
+tensor(0.4939, device='cuda:0')
+tensor(0.5355, device='cuda:0')
+tensor(0.4469, device='cuda:0')
+tensor(0.5514, device='cuda:0')
+tensor(0.5029, device='cuda:0')
+Epoch 117 | Train Loss: 0.3194 | Val Loss: 0.5217
+tensor(0.3340, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3129, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3059, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4757, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1503, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4401, device='cuda:0')
+tensor(0.5137, device='cuda:0')
+tensor(0.4651, device='cuda:0')
+tensor(0.5035, device='cuda:0')
+tensor(0.4824, device='cuda:0')
+tensor(0.5078, device='cuda:0')
+tensor(0.5275, device='cuda:0')
+tensor(0.4002, device='cuda:0')
+tensor(0.4217, device='cuda:0')
+tensor(0.4231, device='cuda:0')
+tensor(0.4768, device='cuda:0')
+tensor(0.4024, device='cuda:0')
+tensor(0.4738, device='cuda:0')
+tensor(0.4661, device='cuda:0')
+Epoch 118 | Train Loss: 0.3157 | Val Loss: 0.4646
+tensor(0.2771, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2479, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4977, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2784, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2910, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4190, device='cuda:0')
+tensor(0.4880, device='cuda:0')
+tensor(0.4405, device='cuda:0')
+tensor(0.4843, device='cuda:0')
+tensor(0.4668, device='cuda:0')
+tensor(0.4883, device='cuda:0')
+tensor(0.4981, device='cuda:0')
+tensor(0.3836, device='cuda:0')
+tensor(0.3931, device='cuda:0')
+tensor(0.3912, device='cuda:0')
+tensor(0.4550, device='cuda:0')
+tensor(0.3883, device='cuda:0')
+tensor(0.4414, device='cuda:0')
+tensor(0.4697, device='cuda:0')
+Epoch 119 | Train Loss: 0.3184 | Val Loss: 0.4434
+tensor(0.2883, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2273, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2908, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3483, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5336, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4467, device='cuda:0')
+tensor(0.5329, device='cuda:0')
+tensor(0.4612, device='cuda:0')
+tensor(0.5046, device='cuda:0')
+tensor(0.4668, device='cuda:0')
+tensor(0.5067, device='cuda:0')
+tensor(0.5329, device='cuda:0')
+tensor(0.3958, device='cuda:0')
+tensor(0.4345, device='cuda:0')
+tensor(0.4273, device='cuda:0')
+tensor(0.4776, device='cuda:0')
+tensor(0.3716, device='cuda:0')
+tensor(0.5053, device='cuda:0')
+tensor(0.4359, device='cuda:0')
+Epoch 120 | Train Loss: 0.3377 | Val Loss: 0.4643
+tensor(0.2274, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5672, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2225, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2743, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3208, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3652, device='cuda:0')
+tensor(0.4220, device='cuda:0')
+tensor(0.3934, device='cuda:0')
+tensor(0.4232, device='cuda:0')
+tensor(0.4203, device='cuda:0')
+tensor(0.4413, device='cuda:0')
+tensor(0.4538, device='cuda:0')
+tensor(0.3234, device='cuda:0')
+tensor(0.3501, device='cuda:0')
+tensor(0.3446, device='cuda:0')
+tensor(0.4003, device='cuda:0')
+tensor(0.3450, device='cuda:0')
+tensor(0.3876, device='cuda:0')
+tensor(0.3955, device='cuda:0')
+Epoch 121 | Train Loss: 0.3224 | Val Loss: 0.3904
+New best model saved.
+tensor(0.3853, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1639, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4190, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2436, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4761, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4286, device='cuda:0')
+tensor(0.4948, device='cuda:0')
+tensor(0.4487, device='cuda:0')
+tensor(0.4885, device='cuda:0')
+tensor(0.4749, device='cuda:0')
+tensor(0.5027, device='cuda:0')
+tensor(0.5139, device='cuda:0')
+tensor(0.3796, device='cuda:0')
+tensor(0.4120, device='cuda:0')
+tensor(0.4062, device='cuda:0')
+tensor(0.4661, device='cuda:0')
+tensor(0.3968, device='cuda:0')
+tensor(0.4622, device='cuda:0')
+tensor(0.4661, device='cuda:0')
+Epoch 122 | Train Loss: 0.3376 | Val Loss: 0.4529
+tensor(0.3780, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2039, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3965, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2654, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2483, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4209, device='cuda:0')
+tensor(0.4902, device='cuda:0')
+tensor(0.4401, device='cuda:0')
+tensor(0.4865, device='cuda:0')
+tensor(0.4580, device='cuda:0')
+tensor(0.4882, device='cuda:0')
+tensor(0.5021, device='cuda:0')
+tensor(0.3831, device='cuda:0')
+tensor(0.3930, device='cuda:0')
+tensor(0.3927, device='cuda:0')
+tensor(0.4522, device='cuda:0')
+tensor(0.3772, device='cuda:0')
+tensor(0.4435, device='cuda:0')
+tensor(0.4522, device='cuda:0')
+Epoch 123 | Train Loss: 0.2984 | Val Loss: 0.4414
+tensor(0.2177, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2816, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3109, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3934, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2822, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4199, device='cuda:0')
+tensor(0.4857, device='cuda:0')
+tensor(0.4470, device='cuda:0')
+tensor(0.4810, device='cuda:0')
+tensor(0.4488, device='cuda:0')
+tensor(0.4835, device='cuda:0')
+tensor(0.5061, device='cuda:0')
+tensor(0.3976, device='cuda:0')
+tensor(0.4008, device='cuda:0')
+tensor(0.3952, device='cuda:0')
+tensor(0.4546, device='cuda:0')
+tensor(0.3682, device='cuda:0')
+tensor(0.4487, device='cuda:0')
+tensor(0.4502, device='cuda:0')
+Epoch 124 | Train Loss: 0.2972 | Val Loss: 0.4420
+tensor(0.4117, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2668, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2653, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3129, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1850, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4076, device='cuda:0')
+tensor(0.4726, device='cuda:0')
+tensor(0.4246, device='cuda:0')
+tensor(0.4628, device='cuda:0')
+tensor(0.4338, device='cuda:0')
+tensor(0.4622, device='cuda:0')
+tensor(0.4872, device='cuda:0')
+tensor(0.3629, device='cuda:0')
+tensor(0.3869, device='cuda:0')
+tensor(0.3816, device='cuda:0')
+tensor(0.4323, device='cuda:0')
+tensor(0.3508, device='cuda:0')
+tensor(0.4339, device='cuda:0')
+tensor(0.4256, device='cuda:0')
+Epoch 125 | Train Loss: 0.2883 | Val Loss: 0.4232
+tensor(0.3882, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3186, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3612, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2188, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1380, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3952, device='cuda:0')
+tensor(0.4739, device='cuda:0')
+tensor(0.4076, device='cuda:0')
+tensor(0.4537, device='cuda:0')
+tensor(0.4179, device='cuda:0')
+tensor(0.4537, device='cuda:0')
+tensor(0.4758, device='cuda:0')
+tensor(0.3763, device='cuda:0')
+tensor(0.3799, device='cuda:0')
+tensor(0.3736, device='cuda:0')
+tensor(0.4285, device='cuda:0')
+tensor(0.3381, device='cuda:0')
+tensor(0.4247, device='cuda:0')
+tensor(0.4199, device='cuda:0')
+Epoch 126 | Train Loss: 0.2850 | Val Loss: 0.4156
+tensor(0.2593, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3401, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2155, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2322, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.5141, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4426, device='cuda:0')
+tensor(0.5056, device='cuda:0')
+tensor(0.4506, device='cuda:0')
+tensor(0.4837, device='cuda:0')
+tensor(0.4665, device='cuda:0')
+tensor(0.4841, device='cuda:0')
+tensor(0.5185, device='cuda:0')
+tensor(0.4059, device='cuda:0')
+tensor(0.4309, device='cuda:0')
+tensor(0.4267, device='cuda:0')
+tensor(0.4657, device='cuda:0')
+tensor(0.3875, device='cuda:0')
+tensor(0.4721, device='cuda:0')
+tensor(0.4542, device='cuda:0')
+Epoch 127 | Train Loss: 0.3122 | Val Loss: 0.4568
+tensor(0.2037, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4536, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3486, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2268, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1759, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3998, device='cuda:0')
+tensor(0.4541, device='cuda:0')
+tensor(0.4227, device='cuda:0')
+tensor(0.4503, device='cuda:0')
+tensor(0.4364, device='cuda:0')
+tensor(0.4607, device='cuda:0')
+tensor(0.4867, device='cuda:0')
+tensor(0.3599, device='cuda:0')
+tensor(0.3921, device='cuda:0')
+tensor(0.3933, device='cuda:0')
+tensor(0.4285, device='cuda:0')
+tensor(0.3582, device='cuda:0')
+tensor(0.4440, device='cuda:0')
+tensor(0.4079, device='cuda:0')
+Epoch 128 | Train Loss: 0.2817 | Val Loss: 0.4211
+tensor(0.4139, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3290, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3062, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2125, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1326, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4251, device='cuda:0')
+tensor(0.4855, device='cuda:0')
+tensor(0.4447, device='cuda:0')
+tensor(0.4748, device='cuda:0')
+tensor(0.4463, device='cuda:0')
+tensor(0.4648, device='cuda:0')
+tensor(0.5032, device='cuda:0')
+tensor(0.3987, device='cuda:0')
+tensor(0.4064, device='cuda:0')
+tensor(0.3930, device='cuda:0')
+tensor(0.4482, device='cuda:0')
+tensor(0.3645, device='cuda:0')
+tensor(0.4505, device='cuda:0')
+tensor(0.4279, device='cuda:0')
+Epoch 129 | Train Loss: 0.2788 | Val Loss: 0.4381
+tensor(0.2399, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2269, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2862, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3406, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2593, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3850, device='cuda:0')
+tensor(0.4726, device='cuda:0')
+tensor(0.4084, device='cuda:0')
+tensor(0.4524, device='cuda:0')
+tensor(0.4105, device='cuda:0')
+tensor(0.4399, device='cuda:0')
+tensor(0.4677, device='cuda:0')
+tensor(0.3617, device='cuda:0')
+tensor(0.3561, device='cuda:0')
+tensor(0.3498, device='cuda:0')
+tensor(0.4138, device='cuda:0')
+tensor(0.3191, device='cuda:0')
+tensor(0.4001, device='cuda:0')
+tensor(0.4351, device='cuda:0')
+Epoch 130 | Train Loss: 0.2706 | Val Loss: 0.4052
+tensor(0.4090, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3184, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3380, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1257, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2533, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3605, device='cuda:0')
+tensor(0.4382, device='cuda:0')
+tensor(0.3854, device='cuda:0')
+tensor(0.4171, device='cuda:0')
+tensor(0.3855, device='cuda:0')
+tensor(0.4147, device='cuda:0')
+tensor(0.4419, device='cuda:0')
+tensor(0.3291, device='cuda:0')
+tensor(0.3443, device='cuda:0')
+tensor(0.3369, device='cuda:0')
+tensor(0.3858, device='cuda:0')
+tensor(0.2973, device='cuda:0')
+tensor(0.3926, device='cuda:0')
+tensor(0.3867, device='cuda:0')
+Epoch 131 | Train Loss: 0.2889 | Val Loss: 0.3797
+New best model saved.
+tensor(0.1909, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2871, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2058, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4340, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2608, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3633, device='cuda:0')
+tensor(0.4325, device='cuda:0')
+tensor(0.3851, device='cuda:0')
+tensor(0.4127, device='cuda:0')
+tensor(0.3787, device='cuda:0')
+tensor(0.4046, device='cuda:0')
+tensor(0.4422, device='cuda:0')
+tensor(0.3274, device='cuda:0')
+tensor(0.3455, device='cuda:0')
+tensor(0.3364, device='cuda:0')
+tensor(0.3795, device='cuda:0')
+tensor(0.2901, device='cuda:0')
+tensor(0.3987, device='cuda:0')
+tensor(0.3653, device='cuda:0')
+Epoch 132 | Train Loss: 0.2757 | Val Loss: 0.3759
+New best model saved.
+tensor(0.1921, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2030, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3573, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3543, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1944, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3746, device='cuda:0')
+tensor(0.4462, device='cuda:0')
+tensor(0.3922, device='cuda:0')
+tensor(0.4290, device='cuda:0')
+tensor(0.3970, device='cuda:0')
+tensor(0.4329, device='cuda:0')
+tensor(0.4616, device='cuda:0')
+tensor(0.3491, device='cuda:0')
+tensor(0.3641, device='cuda:0')
+tensor(0.3559, device='cuda:0')
+tensor(0.4069, device='cuda:0')
+tensor(0.3156, device='cuda:0')
+tensor(0.4098, device='cuda:0')
+tensor(0.3952, device='cuda:0')
+Epoch 133 | Train Loss: 0.2602 | Val Loss: 0.3950
+tensor(0.2354, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2746, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3044, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3366, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1218, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4010, device='cuda:0')
+tensor(0.4849, device='cuda:0')
+tensor(0.4075, device='cuda:0')
+tensor(0.4533, device='cuda:0')
+tensor(0.4195, device='cuda:0')
+tensor(0.4485, device='cuda:0')
+tensor(0.4803, device='cuda:0')
+tensor(0.3954, device='cuda:0')
+tensor(0.3890, device='cuda:0')
+tensor(0.3821, device='cuda:0')
+tensor(0.4348, device='cuda:0')
+tensor(0.3438, device='cuda:0')
+tensor(0.4238, device='cuda:0')
+tensor(0.4271, device='cuda:0')
+Epoch 134 | Train Loss: 0.2546 | Val Loss: 0.4208
+tensor(0.1476, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2298, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2942, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4503, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2198, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3088, device='cuda:0')
+tensor(0.3860, device='cuda:0')
+tensor(0.3268, device='cuda:0')
+tensor(0.3558, device='cuda:0')
+tensor(0.3321, device='cuda:0')
+tensor(0.3465, device='cuda:0')
+tensor(0.3825, device='cuda:0')
+tensor(0.2907, device='cuda:0')
+tensor(0.2930, device='cuda:0')
+tensor(0.2816, device='cuda:0')
+tensor(0.3233, device='cuda:0')
+tensor(0.2384, device='cuda:0')
+tensor(0.3290, device='cuda:0')
+tensor(0.3208, device='cuda:0')
+Epoch 135 | Train Loss: 0.2683 | Val Loss: 0.3225
+New best model saved.
+tensor(0.3402, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3591, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1484, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2607, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1861, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3354, device='cuda:0')
+tensor(0.4076, device='cuda:0')
+tensor(0.3514, device='cuda:0')
+tensor(0.3867, device='cuda:0')
+tensor(0.3536, device='cuda:0')
+tensor(0.3794, device='cuda:0')
+tensor(0.4095, device='cuda:0')
+tensor(0.3040, device='cuda:0')
+tensor(0.3185, device='cuda:0')
+tensor(0.3093, device='cuda:0')
+tensor(0.3535, device='cuda:0')
+tensor(0.2637, device='cuda:0')
+tensor(0.3616, device='cuda:0')
+tensor(0.3400, device='cuda:0')
+Epoch 136 | Train Loss: 0.2589 | Val Loss: 0.3481
+tensor(0.2036, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3017, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3791, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1938, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1508, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3622, device='cuda:0')
+tensor(0.4351, device='cuda:0')
+tensor(0.3758, device='cuda:0')
+tensor(0.4148, device='cuda:0')
+tensor(0.3821, device='cuda:0')
+tensor(0.4149, device='cuda:0')
+tensor(0.4377, device='cuda:0')
+tensor(0.3191, device='cuda:0')
+tensor(0.3439, device='cuda:0')
+tensor(0.3402, device='cuda:0')
+tensor(0.3841, device='cuda:0')
+tensor(0.2954, device='cuda:0')
+tensor(0.3914, device='cuda:0')
+tensor(0.3737, device='cuda:0')
+Epoch 137 | Train Loss: 0.2458 | Val Loss: 0.3764
+tensor(0.1491, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2834, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4984, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1672, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2278, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3871, device='cuda:0')
+tensor(0.4624, device='cuda:0')
+tensor(0.4128, device='cuda:0')
+tensor(0.4542, device='cuda:0')
+tensor(0.4200, device='cuda:0')
+tensor(0.4494, device='cuda:0')
+tensor(0.4709, device='cuda:0')
+tensor(0.3644, device='cuda:0')
+tensor(0.3653, device='cuda:0')
+tensor(0.3652, device='cuda:0')
+tensor(0.4209, device='cuda:0')
+tensor(0.3378, device='cuda:0')
+tensor(0.4166, device='cuda:0')
+tensor(0.4186, device='cuda:0')
+Epoch 138 | Train Loss: 0.2652 | Val Loss: 0.4104
+tensor(0.2475, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1853, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2966, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1852, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4810, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3834, device='cuda:0')
+tensor(0.4485, device='cuda:0')
+tensor(0.4024, device='cuda:0')
+tensor(0.4381, device='cuda:0')
+tensor(0.4155, device='cuda:0')
+tensor(0.4289, device='cuda:0')
+tensor(0.4601, device='cuda:0')
+tensor(0.3465, device='cuda:0')
+tensor(0.3527, device='cuda:0')
+tensor(0.3476, device='cuda:0')
+tensor(0.3990, device='cuda:0')
+tensor(0.3255, device='cuda:0')
+tensor(0.3986, device='cuda:0')
+tensor(0.4026, device='cuda:0')
+Epoch 139 | Train Loss: 0.2791 | Val Loss: 0.3964
+tensor(0.1958, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2464, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1749, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4173, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1980, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3418, device='cuda:0')
+tensor(0.4213, device='cuda:0')
+tensor(0.3599, device='cuda:0')
+tensor(0.4116, device='cuda:0')
+tensor(0.3706, device='cuda:0')
+tensor(0.3994, device='cuda:0')
+tensor(0.4187, device='cuda:0')
+tensor(0.3342, device='cuda:0')
+tensor(0.3095, device='cuda:0')
+tensor(0.3100, device='cuda:0')
+tensor(0.3698, device='cuda:0')
+tensor(0.2883, device='cuda:0')
+tensor(0.3472, device='cuda:0')
+tensor(0.3966, device='cuda:0')
+Epoch 140 | Train Loss: 0.2465 | Val Loss: 0.3628
+tensor(0.3379, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3165, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2056, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1517, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2346, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3658, device='cuda:0')
+tensor(0.4280, device='cuda:0')
+tensor(0.3809, device='cuda:0')
+tensor(0.4131, device='cuda:0')
+tensor(0.3896, device='cuda:0')
+tensor(0.4234, device='cuda:0')
+tensor(0.4467, device='cuda:0')
+tensor(0.3244, device='cuda:0')
+tensor(0.3594, device='cuda:0')
+tensor(0.3589, device='cuda:0')
+tensor(0.3905, device='cuda:0')
+tensor(0.3066, device='cuda:0')
+tensor(0.4088, device='cuda:0')
+tensor(0.3710, device='cuda:0')
+Epoch 141 | Train Loss: 0.2493 | Val Loss: 0.3834
+tensor(0.2009, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3914, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1480, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2498, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2444, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3902, device='cuda:0')
+tensor(0.4499, device='cuda:0')
+tensor(0.4041, device='cuda:0')
+tensor(0.4452, device='cuda:0')
+tensor(0.4149, device='cuda:0')
+tensor(0.4427, device='cuda:0')
+tensor(0.4608, device='cuda:0')
+tensor(0.3462, device='cuda:0')
+tensor(0.3603, device='cuda:0')
+tensor(0.3586, device='cuda:0')
+tensor(0.4083, device='cuda:0')
+tensor(0.3347, device='cuda:0')
+tensor(0.4077, device='cuda:0')
+tensor(0.4031, device='cuda:0')
+Epoch 142 | Train Loss: 0.2469 | Val Loss: 0.4019
+tensor(0.3160, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1470, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2851, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1596, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4122, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3806, device='cuda:0')
+tensor(0.4511, device='cuda:0')
+tensor(0.3975, device='cuda:0')
+tensor(0.4251, device='cuda:0')
+tensor(0.4000, device='cuda:0')
+tensor(0.4259, device='cuda:0')
+tensor(0.4569, device='cuda:0')
+tensor(0.3439, device='cuda:0')
+tensor(0.3678, device='cuda:0')
+tensor(0.3626, device='cuda:0')
+tensor(0.4024, device='cuda:0')
+tensor(0.3131, device='cuda:0')
+tensor(0.4196, device='cuda:0')
+tensor(0.3857, device='cuda:0')
+Epoch 143 | Train Loss: 0.2640 | Val Loss: 0.3952
+tensor(0.3533, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3270, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1224, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2053, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1924, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3597, device='cuda:0')
+tensor(0.4340, device='cuda:0')
+tensor(0.3731, device='cuda:0')
+tensor(0.4102, device='cuda:0')
+tensor(0.3815, device='cuda:0')
+tensor(0.4088, device='cuda:0')
+tensor(0.4362, device='cuda:0')
+tensor(0.3265, device='cuda:0')
+tensor(0.3414, device='cuda:0')
+tensor(0.3367, device='cuda:0')
+tensor(0.3802, device='cuda:0')
+tensor(0.2957, device='cuda:0')
+tensor(0.3854, device='cuda:0')
+tensor(0.3626, device='cuda:0')
+Epoch 144 | Train Loss: 0.2401 | Val Loss: 0.3737
+tensor(0.1374, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3525, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1987, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3915, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1059, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3594, device='cuda:0')
+tensor(0.4273, device='cuda:0')
+tensor(0.3764, device='cuda:0')
+tensor(0.4052, device='cuda:0')
+tensor(0.3778, device='cuda:0')
+tensor(0.4049, device='cuda:0')
+tensor(0.4362, device='cuda:0')
+tensor(0.3279, device='cuda:0')
+tensor(0.3419, device='cuda:0')
+tensor(0.3344, device='cuda:0')
+tensor(0.3773, device='cuda:0')
+tensor(0.2916, device='cuda:0')
+tensor(0.3842, device='cuda:0')
+tensor(0.3612, device='cuda:0')
+Epoch 145 | Train Loss: 0.2372 | Val Loss: 0.3718
+tensor(0.1441, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1875, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3159, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2883, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1798, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3381, device='cuda:0')
+tensor(0.4135, device='cuda:0')
+tensor(0.3549, device='cuda:0')
+tensor(0.3872, device='cuda:0')
+tensor(0.3505, device='cuda:0')
+tensor(0.3752, device='cuda:0')
+tensor(0.4109, device='cuda:0')
+tensor(0.3217, device='cuda:0')
+tensor(0.3201, device='cuda:0')
+tensor(0.3073, device='cuda:0')
+tensor(0.3522, device='cuda:0')
+tensor(0.2614, device='cuda:0')
+tensor(0.3563, device='cuda:0')
+tensor(0.3462, device='cuda:0')
+Epoch 146 | Train Loss: 0.2231 | Val Loss: 0.3497
+tensor(0.1685, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2659, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2466, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1668, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2647, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3321, device='cuda:0')
+tensor(0.4117, device='cuda:0')
+tensor(0.3472, device='cuda:0')
+tensor(0.3768, device='cuda:0')
+tensor(0.3382, device='cuda:0')
+tensor(0.3684, device='cuda:0')
+tensor(0.4065, device='cuda:0')
+tensor(0.3139, device='cuda:0')
+tensor(0.3229, device='cuda:0')
+tensor(0.3106, device='cuda:0')
+tensor(0.3475, device='cuda:0')
+tensor(0.2475, device='cuda:0')
+tensor(0.3580, device='cuda:0')
+tensor(0.3345, device='cuda:0')
+Epoch 147 | Train Loss: 0.2225 | Val Loss: 0.3440
+tensor(0.1945, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2201, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2487, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2377, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1312, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3442, device='cuda:0')
+tensor(0.4109, device='cuda:0')
+tensor(0.3627, device='cuda:0')
+tensor(0.3863, device='cuda:0')
+tensor(0.3635, device='cuda:0')
+tensor(0.3867, device='cuda:0')
+tensor(0.4229, device='cuda:0')
+tensor(0.3150, device='cuda:0')
+tensor(0.3399, device='cuda:0')
+tensor(0.3271, device='cuda:0')
+tensor(0.3611, device='cuda:0')
+tensor(0.2752, device='cuda:0')
+tensor(0.3781, device='cuda:0')
+tensor(0.3342, device='cuda:0')
+Epoch 148 | Train Loss: 0.2064 | Val Loss: 0.3577
+tensor(0.2630, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1330, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1289, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3259, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3912, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3839, device='cuda:0')
+tensor(0.4428, device='cuda:0')
+tensor(0.3984, device='cuda:0')
+tensor(0.4226, device='cuda:0')
+tensor(0.4085, device='cuda:0')
+tensor(0.4266, device='cuda:0')
+tensor(0.4619, device='cuda:0')
+tensor(0.3472, device='cuda:0')
+tensor(0.3799, device='cuda:0')
+tensor(0.3667, device='cuda:0')
+tensor(0.4013, device='cuda:0')
+tensor(0.3253, device='cuda:0')
+tensor(0.4196, device='cuda:0')
+tensor(0.3678, device='cuda:0')
+Epoch 149 | Train Loss: 0.2484 | Val Loss: 0.3966
+tensor(0.1096, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2122, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2838, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3762, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1336, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3496, device='cuda:0')
+tensor(0.4131, device='cuda:0')
+tensor(0.3609, device='cuda:0')
+tensor(0.3899, device='cuda:0')
+tensor(0.3674, device='cuda:0')
+tensor(0.3897, device='cuda:0')
+tensor(0.4221, device='cuda:0')
+tensor(0.3134, device='cuda:0')
+tensor(0.3444, device='cuda:0')
+tensor(0.3309, device='cuda:0')
+tensor(0.3615, device='cuda:0')
+tensor(0.2787, device='cuda:0')
+tensor(0.3835, device='cuda:0')
+tensor(0.3332, device='cuda:0')
+Epoch 150 | Train Loss: 0.2231 | Val Loss: 0.3599
+tensor(0.2940, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2133, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2093, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1520, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1410, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3382, device='cuda:0')
+tensor(0.3992, device='cuda:0')
+tensor(0.3504, device='cuda:0')
+tensor(0.3786, device='cuda:0')
+tensor(0.3557, device='cuda:0')
+tensor(0.3755, device='cuda:0')
+tensor(0.4081, device='cuda:0')
+tensor(0.3057, device='cuda:0')
+tensor(0.3260, device='cuda:0')
+tensor(0.3142, device='cuda:0')
+tensor(0.3469, device='cuda:0')
+tensor(0.2668, device='cuda:0')
+tensor(0.3626, device='cuda:0')
+tensor(0.3247, device='cuda:0')
+Epoch 151 | Train Loss: 0.2019 | Val Loss: 0.3466
+tensor(0.4118, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1500, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1597, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1172, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4259, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3512, device='cuda:0')
+tensor(0.4124, device='cuda:0')
+tensor(0.3669, device='cuda:0')
+tensor(0.3944, device='cuda:0')
+tensor(0.3743, device='cuda:0')
+tensor(0.3928, device='cuda:0')
+tensor(0.4259, device='cuda:0')
+tensor(0.3193, device='cuda:0')
+tensor(0.3406, device='cuda:0')
+tensor(0.3304, device='cuda:0')
+tensor(0.3645, device='cuda:0')
+tensor(0.2865, device='cuda:0')
+tensor(0.3786, device='cuda:0')
+tensor(0.3447, device='cuda:0')
+Epoch 152 | Train Loss: 0.2529 | Val Loss: 0.3630
+tensor(0.2972, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2175, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1236, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2206, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1635, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3481, device='cuda:0')
+tensor(0.4095, device='cuda:0')
+tensor(0.3621, device='cuda:0')
+tensor(0.3887, device='cuda:0')
+tensor(0.3685, device='cuda:0')
+tensor(0.3910, device='cuda:0')
+tensor(0.4222, device='cuda:0')
+tensor(0.3130, device='cuda:0')
+tensor(0.3415, device='cuda:0')
+tensor(0.3313, device='cuda:0')
+tensor(0.3628, device='cuda:0')
+tensor(0.2822, device='cuda:0')
+tensor(0.3807, device='cuda:0')
+tensor(0.3365, device='cuda:0')
+Epoch 153 | Train Loss: 0.2045 | Val Loss: 0.3599
+tensor(0.2160, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1366, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2300, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2396, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1878, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3497, device='cuda:0')
+tensor(0.4110, device='cuda:0')
+tensor(0.3609, device='cuda:0')
+tensor(0.3858, device='cuda:0')
+tensor(0.3646, device='cuda:0')
+tensor(0.3831, device='cuda:0')
+tensor(0.4171, device='cuda:0')
+tensor(0.3159, device='cuda:0')
+tensor(0.3409, device='cuda:0')
+tensor(0.3301, device='cuda:0')
+tensor(0.3588, device='cuda:0')
+tensor(0.2777, device='cuda:0')
+tensor(0.3797, device='cuda:0')
+tensor(0.3326, device='cuda:0')
+Epoch 154 | Train Loss: 0.2020 | Val Loss: 0.3577
+tensor(0.2400, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1145, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2169, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1783, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4120, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3374, device='cuda:0')
+tensor(0.4009, device='cuda:0')
+tensor(0.3521, device='cuda:0')
+tensor(0.3729, device='cuda:0')
+tensor(0.3534, device='cuda:0')
+tensor(0.3695, device='cuda:0')
+tensor(0.4056, device='cuda:0')
+tensor(0.3004, device='cuda:0')
+tensor(0.3291, device='cuda:0')
+tensor(0.3177, device='cuda:0')
+tensor(0.3449, device='cuda:0')
+tensor(0.2628, device='cuda:0')
+tensor(0.3695, device='cuda:0')
+tensor(0.3204, device='cuda:0')
+Epoch 155 | Train Loss: 0.2323 | Val Loss: 0.3455
+tensor(0.2059, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1650, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1478, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3181, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1621, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3474, device='cuda:0')
+tensor(0.4144, device='cuda:0')
+tensor(0.3605, device='cuda:0')
+tensor(0.3890, device='cuda:0')
+tensor(0.3632, device='cuda:0')
+tensor(0.3849, device='cuda:0')
+tensor(0.4177, device='cuda:0')
+tensor(0.3235, device='cuda:0')
+tensor(0.3374, device='cuda:0')
+tensor(0.3271, device='cuda:0')
+tensor(0.3632, device='cuda:0')
+tensor(0.2787, device='cuda:0')
+tensor(0.3732, device='cuda:0')
+tensor(0.3460, device='cuda:0')
+Epoch 156 | Train Loss: 0.1998 | Val Loss: 0.3590
+tensor(0.1440, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2247, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2129, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2609, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1200, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3505, device='cuda:0')
+tensor(0.4192, device='cuda:0')
+tensor(0.3585, device='cuda:0')
+tensor(0.3881, device='cuda:0')
+tensor(0.3594, device='cuda:0')
+tensor(0.3853, device='cuda:0')
+tensor(0.4189, device='cuda:0')
+tensor(0.3238, device='cuda:0')
+tensor(0.3449, device='cuda:0')
+tensor(0.3333, device='cuda:0')
+tensor(0.3653, device='cuda:0')
+tensor(0.2739, device='cuda:0')
+tensor(0.3817, device='cuda:0')
+tensor(0.3364, device='cuda:0')
+Epoch 157 | Train Loss: 0.1925 | Val Loss: 0.3599
+tensor(0.1347, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2460, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2582, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1190, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.4088, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3451, device='cuda:0')
+tensor(0.4164, device='cuda:0')
+tensor(0.3519, device='cuda:0')
+tensor(0.3819, device='cuda:0')
+tensor(0.3574, device='cuda:0')
+tensor(0.3740, device='cuda:0')
+tensor(0.4112, device='cuda:0')
+tensor(0.3112, device='cuda:0')
+tensor(0.3360, device='cuda:0')
+tensor(0.3233, device='cuda:0')
+tensor(0.3521, device='cuda:0')
+tensor(0.2646, device='cuda:0')
+tensor(0.3717, device='cuda:0')
+tensor(0.3279, device='cuda:0')
+Epoch 158 | Train Loss: 0.2334 | Val Loss: 0.3518
+tensor(0.3132, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1101, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1358, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3320, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1641, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3340, device='cuda:0')
+tensor(0.3994, device='cuda:0')
+tensor(0.3513, device='cuda:0')
+tensor(0.3761, device='cuda:0')
+tensor(0.3554, device='cuda:0')
+tensor(0.3677, device='cuda:0')
+tensor(0.4065, device='cuda:0')
+tensor(0.3056, device='cuda:0')
+tensor(0.3236, device='cuda:0')
+tensor(0.3131, device='cuda:0')
+tensor(0.3450, device='cuda:0')
+tensor(0.2630, device='cuda:0')
+tensor(0.3603, device='cuda:0')
+tensor(0.3289, device='cuda:0')
+Epoch 159 | Train Loss: 0.2110 | Val Loss: 0.3450
+tensor(0.1634, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3417, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1831, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1468, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1659, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3538, device='cuda:0')
+tensor(0.4115, device='cuda:0')
+tensor(0.3728, device='cuda:0')
+tensor(0.3970, device='cuda:0')
+tensor(0.3726, device='cuda:0')
+tensor(0.3867, device='cuda:0')
+tensor(0.4259, device='cuda:0')
+tensor(0.3366, device='cuda:0')
+tensor(0.3407, device='cuda:0')
+tensor(0.3295, device='cuda:0')
+tensor(0.3702, device='cuda:0')
+tensor(0.2893, device='cuda:0')
+tensor(0.3750, device='cuda:0')
+tensor(0.3531, device='cuda:0')
+Epoch 160 | Train Loss: 0.2002 | Val Loss: 0.3653
+tensor(0.1578, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1914, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2031, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2485, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1317, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3311, device='cuda:0')
+tensor(0.3984, device='cuda:0')
+tensor(0.3443, device='cuda:0')
+tensor(0.3711, device='cuda:0')
+tensor(0.3431, device='cuda:0')
+tensor(0.3579, device='cuda:0')
+tensor(0.3972, device='cuda:0')
+tensor(0.3151, device='cuda:0')
+tensor(0.3180, device='cuda:0')
+tensor(0.3033, device='cuda:0')
+tensor(0.3396, device='cuda:0')
+tensor(0.2526, device='cuda:0')
+tensor(0.3537, device='cuda:0')
+tensor(0.3187, device='cuda:0')
+Epoch 161 | Train Loss: 0.1865 | Val Loss: 0.3389
+tensor(0.2384, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2435, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.0915, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2516, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2368, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3288, device='cuda:0')
+tensor(0.4020, device='cuda:0')
+tensor(0.3392, device='cuda:0')
+tensor(0.3697, device='cuda:0')
+tensor(0.3399, device='cuda:0')
+tensor(0.3575, device='cuda:0')
+tensor(0.3951, device='cuda:0')
+tensor(0.3043, device='cuda:0')
+tensor(0.3146, device='cuda:0')
+tensor(0.3032, device='cuda:0')
+tensor(0.3357, device='cuda:0')
+tensor(0.2467, device='cuda:0')
+tensor(0.3504, device='cuda:0')
+tensor(0.3164, device='cuda:0')
+Epoch 162 | Train Loss: 0.2124 | Val Loss: 0.3360
+tensor(0.2577, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1026, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3100, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2092, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1159, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3168, device='cuda:0')
+tensor(0.3879, device='cuda:0')
+tensor(0.3343, device='cuda:0')
+tensor(0.3608, device='cuda:0')
+tensor(0.3328, device='cuda:0')
+tensor(0.3530, device='cuda:0')
+tensor(0.3880, device='cuda:0')
+tensor(0.2943, device='cuda:0')
+tensor(0.3039, device='cuda:0')
+tensor(0.2953, device='cuda:0')
+tensor(0.3299, device='cuda:0')
+tensor(0.2444, device='cuda:0')
+tensor(0.3373, device='cuda:0')
+tensor(0.3169, device='cuda:0')
+Epoch 163 | Train Loss: 0.1991 | Val Loss: 0.3283
+tensor(0.2174, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2146, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.0994, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2953, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.1585, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3188, device='cuda:0')
+tensor(0.3834, device='cuda:0')
+tensor(0.3398, device='cuda:0')
+tensor(0.3632, device='cuda:0')
+tensor(0.3365, device='cuda:0')
+tensor(0.3563, device='cuda:0')
+tensor(0.3921, device='cuda:0')
+tensor(0.2979, device='cuda:0')
+tensor(0.3086, device='cuda:0')
+tensor(0.3017, device='cuda:0')
+tensor(0.3337, device='cuda:0')
+tensor(0.2509, device='cuda:0')
+tensor(0.3441, device='cuda:0')
+tensor(0.3211, device='cuda:0')
+Epoch 164 | Train Loss: 0.1970 | Val Loss: 0.3320
+tensor(0.1343, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2016, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.0996, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3652, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.2858, device='cuda:0', grad_fn=<AddBackward0>)
+OK
+tensor(0.3378, device='cuda:0')
+tensor(0.4023, device='cuda:0')
+tensor(0.3520, device='cuda:0')
+tensor(0.3749, device='cuda:0')
+tensor(0.3511, device='cuda:0')
+tensor(0.3665, device='cuda:0')
+tensor(0.4064, device='cuda:0')
+tensor(0.3088, device='cuda:0')
+tensor(0.3291, device='cuda:0')
+tensor(0.3199, device='cuda:0')
+tensor(0.3472, device='cuda:0')
+tensor(0.2624, device='cuda:0')
+tensor(0.3696, device='cuda:0')
+tensor(0.3273, device='cuda:0')
+Epoch 165 | Train Loss: 0.2173 | Val Loss: 0.3468
+ Early stopping triggered.
+Training complete.

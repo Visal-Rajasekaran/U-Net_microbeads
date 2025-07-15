@@ -29,7 +29,7 @@ def extract_centroids_from_coco():
 
     try:
         # Load COCO annotations
-        with open(COCO_JSON_PATH, "r") as f:
+        with open(COCO_JSON_PATH, "r", encoding="utf-8") as f:
             coco_data = json.load(f)
 
         # Create mappings
@@ -208,7 +208,7 @@ def export_centroids_in_yolo_format():
 
     try:
         # Load COCO annotations
-        with open(COCO_JSON_PATH, "r") as f:
+        with open(COCO_JSON_PATH, "r", encoding="utf-8") as f:
             coco_data = json.load(f)
 
         # Create mappings

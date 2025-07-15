@@ -1,0 +1,150 @@
+from torch.utils.data import Dataset
+import torchvision.transforms as T
+from PIL import Image
+import pandas as pd
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import numpy as np
+import cv2
+import gc
+import os
+
+# Ensure we clean up memory whenever possible
+gc.enable()
+
+# Define paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+COCO_JSON_PATH = os.path.join(BASE_DIR, "annotations.json")
+IMAGE_FOLDER = os.path.join(BASE_DIR, "dataset", "images")
+RESULTS_FOLDER = os.path.join(BASE_DIR, "results")
+CENTROIDS_FOLDER = os.path.join(BASE_DIR, "dataset", "centroids")
+
+def generate_heatmap(image_shape, points, radii, default_sigma=4):
+    heatmap = np.zeros(image_shape, dtype=np.float32)
+    for (x, y), radius in zip(points, radii):
+        sigma = radius / 2 if radius else default_sigma #radius/2 seems better than typical /3
+        tmp = np.zeros(image_shape, dtype=np.float32)
+        tmp[int(y), int(x)] = 1
+        tmp = cv2.GaussianBlur(tmp, (0,0), sigma)
+        tmp /= tmp.max()
+        heatmap = np.maximum(heatmap, tmp)
+    return heatmap
+
+
+
+class HeatmapRegressionNet(nn.Module):
+    def __init__(self):
+        super(HeatmapRegressionNet, self).__init__()
+        self.encoder = nn.Sequential(
+            nn.Conv2d(3, 32, 3, padding=1), nn.ReLU(),
+            nn.Conv2d(32, 64, 3, padding=1), nn.ReLU(),
+            nn.MaxPool2d(2),
+            nn.Conv2d(64, 128, 3, padding=1), nn.ReLU(),
+            nn.MaxPool2d(2)
+        )
+        self.decoder = nn.Sequential(
+            nn.ConvTranspose2d(128, 64, 2, stride=2), nn.ReLU(),
+            nn.ConvTranspose2d(64, 32, 2, stride=2), nn.ReLU(),
+            nn.Conv2d(32, 1, 1)
+        )
+
+    def forward(self, x):
+        x = self.encoder(x)
+        x = self.decoder(x)
+        return torch.sigmoid(x)  # output shape: (B, 1, H, W)
+
+
+def heatmap_loss(pred, target):
+    return F.binary_cross_entropy(pred, target)
+
+class CentroidDataset(Dataset):
+    def __init__(self, csv_path, image_root, image_size=(512, 512), sigma=4, transform=None):
+        self.df = pd.read_csv(csv_path)
+        self.image_root = image_root
+        self.image_size = image_size
+        self.sigma = sigma
+        self.transform = transform
+        self.grouped = self.df.groupby("image_id")
+
+    def __len__(self):
+        return len(self.grouped)
+
+    def __getitem__(self, idx):
+        image_id = list(self.grouped.groups.keys())[idx]
+        group = self.grouped.get_group(image_id)
+
+        filename = group["image_filename"].values[0]
+        image_path = os.path.join(self.image_root, filename)
+        image = Image.open(image_path).convert("RGB").resize(self.image_size)
+
+        if self.transform:
+            image = self.transform(image)
+        else:
+            image = T.ToTensor()(image)
+
+        '''# Resize points
+        orig_w, orig_h = group['x'].max(), group['y'].max()  # or load actual size from PIL
+        target_w, target_h = self.image_size
+        scale_x = target_w / image.size(2)
+        scale_y = target_h / image.size(1)
+
+        points = [(row["x"] * scale_x, row["y"] * scale_y) for _, row in group.iterrows()]'''
+        points = list(zip(group['x'], group['y']))
+        # Optional: use approx_radius as sigma
+        radii = [row["approx_radius"] for _, row in group.iterrows()]
+        heatmap = generate_heatmap(self.image_size, points, radii)
+
+        heatmap = torch.tensor(heatmap, dtype=torch.float32).unsqueeze(0)  # (1, H, W)
+
+        return image, heatmap
+
+
+
+
+from torch.utils.data import DataLoader
+import torch.optim as optim
+
+train_set = CentroidDataset(os.path.join(RESULTS_FOLDER, 'all_centroids.csv'), IMAGE_FOLDER)
+train_loader = DataLoader(train_set, batch_size=8, shuffle=True)
+
+model = HeatmapRegressionNet()
+optimizer = optim.Adam(model.parameters(), lr=1e-3)
+
+for epoch in range(20):
+    model.train()
+    for images, heatmaps in train_loader:
+        pred = model(images)
+        loss = heatmap_loss(pred, heatmaps)
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+    print(f"Epoch {epoch+1}, Loss: {loss.item():.4f}")
+    
+torch.save(model.state_dict(), "heatmap_model.pth")
+
+'''import matplotlib.pyplot as plt
+
+# Example: load one sample from your dataset
+dataset = CentroidDataset(os.path.join(RESULTS_FOLDER, 'all_centroids.csv'), IMAGE_FOLDER)
+
+# Get the first sample
+image, heatmap = dataset[0]  # image: tensor (3,H,W), heatmap: tensor (1,H,W)
+
+# Convert tensors to numpy for plotting
+image_np = image.permute(1, 2, 0).numpy()  # H,W,3 RGB
+heatmap_np = heatmap.squeeze(0).numpy()    # H,W
+
+# Plot side by side
+fig, ax = plt.subplots(1, 2, figsize=(12, 6))
+
+ax[0].imshow(image_np)
+ax[0].set_title("Image")
+ax[0].axis('off')
+
+ax[1].imshow(heatmap_np, cmap='hot')
+ax[1].set_title("Heatmap")
+ax[1].axis('off')
+
+plt.show()
+'''

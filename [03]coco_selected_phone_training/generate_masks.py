@@ -89,7 +89,7 @@ def generate_circular_masks():
 
     try:
         # Load COCO annotations
-        with open(COCO_JSON_PATH, "r") as f:
+        with open(COCO_JSON_PATH, "r", encoding="utf-8") as f:
             coco_data = json.load(f)
 
         # Create mappings

@@ -1,0 +1,121 @@
+grep -v HOH 1aki.pdb > 1AKI_clean.pdb (REPLACE WITH BELOW)
+gmx pdb2gmx -f 1AKI_clean.pdb -o 1AKI_processed.gro -water spce
+
+gmx pdb2gmx -f hc2.pdb -o hc2.gro -ter -ignh
+
+
+gmx editconf -f 1AKI_processed.gro -o 1AKI_newbox.gro -c -d 1.0 -bt cubic
+gmx solvate -cp 1AKI_newbox.gro -cs spc216.gro -o 1AKI_solv.gro -p topol.top
+gmx grompp -f ions.mdp -c 1AKI_solv.gro -p topol.top -o ions.tpr
+gmx genion -s ions.tpr -o 1AKI_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
+gmx grompp -f minim.mdp -c 1AKI_solv_ions.gro -p topol.top -o em.tpr
+gmx mdrun -v -deffnm em
+gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
+gmx mdrun -deffnm nvt
+gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
+gmx mdrun -deffnm npt
+gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
+gmx mdrun -deffnm md_0_1
+
+
+
+#grep -v HOH hc2.pdb > clean.pdb #No need since alphafold3 output does not have water
+#gmx pdb2gmx -f clean.pdb -o processed.gro -water spce
+
+module load GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+
+gmx pdb2gmx -f hc1mlc1.pdb -o processed.gro -ter -ignh #Ignore hydrogens when adding hydrogens and set end terminus as COO- and start terminus as NH3+. Prompts forcefield selection
+
+gmx editconf -f processed.gro -o newbox.gro -c -d 1.0 -bt cubic
+gmx solvate -cp newbox.gro -cs spc216.gro -o solv.gro -p topol.top
+gmx grompp -f ions.mdp -c solv.gro -p topol.top -o ions.tpr
+echo "SOL" | gmx genion -s ions.tpr -o solv_ions.gro -p topol.top -pname NA -nname CL -neutral
+
+gmx grompp -f minim.mdp -c solv_ions.gro -p topol.top -o em.tpr
+gmx mdrun -v -ntmpi 32 -deffnm em
+
+gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
+gmx mdrun -deffnm nvt
+
+gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
+gmx mdrun -deffnm npt
+
+gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
+gmx mdrun -deffnm md_0_1
+
+
+
+
+
+
+For removing PDB and solvent and ions
+
+First, make an index file and index the chains.
+module load GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+gmx make_ndx -f nvt.gro #Make ndx index file for the input file nvt.gro
+
+#Select protein and make groups for the residues for each chain 
+#name with the displayed commands
+#Save and quit
+
+vim index.ndx
+
+gmx make_ndx -f nvt.gro << EOF
+ri 1-42
+!3 & !r SOL & !r NA+ & !r CL-
+EOF
+
+
+
+echo "System" | gmx trjconv -s md_0_1.tpr -f md_0_1.xtc -o nopbc_part1.xtc -pbc whole
+#output system
+#
+gmx trjconv -s md_0_1.tpr -f nopbc_part1.xtc -n index.ndx -o nopbc_part2.xtc -center <<EOF
+chainb
+System
+EOF
+#Center around largest chain
+#ouput system
+
+echo "System" | gmx trjconv -s md_0_1.tpr -f nopbc_part2.xtc -n index.ndx -o md_0_1_noPBC.xtc -pbc mol -ur compact
+#Output system
+
+echo "Protein" | gmx trjconv -f md_0_1_noPBC.xtc -s md_0_1.tpr -dump 0 -o md_0_1_frame_0.gro
+#output protein
+echo "Protein" | gmx trjconv -f md_0_1_noPBC.xtc -s md_0_1.tpr -o md_0_1_protein.xtc
+#output protein
+
+
+gmx rms -s md_0_1.tpr -f md_0_1_noPBC.xtc -o rmsd.xvg -tu ns
+
+################
+To get rmsd
+module load GROMACS/2023.3-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0-AMPERE86
+#gmx make_ndx -f nvt.gro
+
+gmx rms -s md_0_1.tpr -f md_0_1_protein.xtc -n index.ndx -o rmsd_abeta42.xvg -tu ns<<EOF
+abeta42
+abeta42
+EOF
+
+gmx rms -s md_0_1.tpr -f md_0_1_protein.xtc -n index.ndx -o rmsd_chainb.xvg -tu ns<<EOF
+chainb
+chainb
+EOF
+
+########Get contact map
+gmx pairdist -s md_0_1.tpr -f md_0_1_protein.xtc -o contacts.xvg -n index.ndx -refgrouping res -selgrouping res<<EOF
+abeta42
+chainb
+EOF
+
+############Get coordinates
+gmx traj -s md_0_1.tpr -f md_0_1_protein.xtc -ox abeta42_coords.xvg -n index.ndx<<EOF
+abeta42
+EOF
+gmx traj -s md_0_1.tpr -f md_0_1_protein.xtc -ox chainb_coords.xvg -n index.ndx<<EOF
+chainb
+EOF
+
+
+echo Rsvr@27062003 | ssh e1357167@vanda.nus.edu.sg

@@ -1,0 +1,11 @@
+Total centroids extracted: 11660
+Centroids per image:
+count     75.000000
+mean     155.466667
+std      139.289736
+min        6.000000
+25%       38.000000
+50%      106.000000
+75%      295.000000
+max      409.000000
+dtype: float64

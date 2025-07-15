@@ -1,0 +1,2 @@
+with open("[03]coco_selected_phone_training\\annotations.json", "rb") as f:
+    print(f.read(10))
