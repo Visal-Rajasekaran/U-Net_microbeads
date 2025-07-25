@@ -10,8 +10,8 @@ import cv2
 import gc
 import os
 from datetime import datetime
-from loss_v5 import *
-from model_v5 import *
+from loss_v7_seg_and_heat import *
+from model_v7_seg_and_heat import *
 
 # Ensure we clean up memory whenever possible
 gc.enable()
@@ -23,10 +23,10 @@ print(torch.cuda.get_device_name(0))
 # Define paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 #COCO_JSON_PATH = os.path.join(BASE_DIR, "annotations.json")
-IMAGE_FOLDER = os.path.join(BASE_DIR, "fft_filtered")
-RESULTS_FOLDER = os.path.join(BASE_DIR, "results")
+IMAGE_FOLDER = os.path.join(BASE_DIR, "synthetic_data_generation","synthetic_images_2" )
+RESULTS_FOLDER = os.path.join(BASE_DIR, "synthetic_data_generation")
 #CENTROIDS_FOLDER = os.path.join(BASE_DIR, "dataset", "centroids")
-MASKS_FOLDER = os.path.join(BASE_DIR, "dataset", "masks")
+MASKS_FOLDER = os.path.join(BASE_DIR, "synthetic_data_generation", "masks_2")
 
 def generate_heatmap(image_shape, points, radii, default_sigma=4):
     heatmap = np.zeros(image_shape, dtype=np.float32)
@@ -80,8 +80,7 @@ class CentroidDataset(Dataset):
         points = list(zip(group['x'], group['y']))
         radii = [row["approx_radius"] for _, row in group.iterrows()]
         heatmap = generate_heatmap(self.image_size, points, radii, default_sigma=self.sigma)
-        heatmap = torch.tensor(heatmap, dtype=torch.float32).unsqueeze(0)  # [1, H, W]
-
+        heatmap = torch.tensor(heatmap, dtype=torch.float32).unsqueeze(0)
         count = torch.tensor([len(points)], dtype=torch.float32)
        
         return {
@@ -105,7 +104,7 @@ lr_plateau_patience = 14
 generator = torch.Generator().manual_seed(42)
 
 # Dataset
-full_dataset = CentroidDataset(os.path.join(RESULTS_FOLDER, 'all_centroids.csv'), IMAGE_FOLDER, MASKS_FOLDER)
+full_dataset = CentroidDataset(os.path.join(RESULTS_FOLDER,"synthetic_images_2", 'synthetic_centroids_2.csv'), IMAGE_FOLDER, MASKS_FOLDER)
 val_size = int(len(full_dataset) * val_split)
 train_size = len(full_dataset) - val_size
 train_dataset, val_dataset = random_split(full_dataset, [train_size, val_size],generator=generator)
@@ -135,15 +134,15 @@ for epoch in range(max_epochs):
         count_target = batch['count'].cuda()
 
         #seg_pred, heat_pred, count_pred = model(images)
-        #seg_pred, heat_pred = model(images)
-        seg_pred = model(images)
+        seg_pred, heat_pred = model(images)
+        #seg_pred = model(images)
         #print("Pred count:", count_pred.detach().cpu().numpy())
         #print("True count:", count_target.detach().cpu().numpy())
 
 
         #loss, (l_seg, l_heat, l_count) = criterion(seg_pred, seg_target, heat_pred, heatmap_target, count_pred, count_target)
-        #loss, (l_seg, l_heat) = criterion(seg_pred, seg_target, heat_pred, heatmap_target)
-        loss, l_seg = criterion(seg_pred, seg_target)
+        loss, (l_seg, l_heat) = criterion(seg_pred, seg_target, heat_pred, heatmap_target)
+        #loss, l_seg = criterion(seg_pred, seg_target)
 
         optimizer.zero_grad()
         loss.backward()
@@ -163,11 +162,11 @@ for epoch in range(max_epochs):
             count_target = batch['count'].cuda()
 
             #seg_pred, heat_pred, count_pred = model(images)
-            #seg_pred, heat_pred = model(images)
-            seg_pred = model(images)
+            seg_pred, heat_pred = model(images)
+            #seg_pred = model(images)
             #val_loss, _ = criterion(seg_pred, seg_target, heat_pred, heatmap_target, count_pred, count_target)
-            #val_loss, _ = criterion(seg_pred, seg_target, heat_pred, heatmap_target)
-            val_loss, _ = criterion(seg_pred, seg_target)
+            val_loss, _ = criterion(seg_pred, seg_target, heat_pred, heatmap_target)
+            #val_loss, _ = criterion(seg_pred, seg_target)
             running_val_loss += val_loss.item()
 
 
@@ -181,7 +180,7 @@ for epoch in range(max_epochs):
     if val_loss_avg < best_val_loss:
         best_val_loss = val_loss_avg
         best_model_wts = copy.deepcopy(model.state_dict())
-        torch.save(best_model_wts, "weights_fft_new_microscopy_model_v5.pth")
+        torch.save(best_model_wts, "../weights_outputs/weights_sdg_2_model_v7_heat_and_seg.pth")
         print("New best model saved.")
         epochs_no_improve = 0
     else:

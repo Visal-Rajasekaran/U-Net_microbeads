@@ -42,12 +42,12 @@ class MultiTaskLoss(nn.Module):
     def __init__(self, dice_weight=2.0, bce_weight=1.0):
         super(MultiTaskLoss, self).__init__()
         self.seg_loss = WeightedDiceBCELoss(dice_weight, bce_weight)
-        #self.heatmap_loss = nn.BCELoss()
+        self.heatmap_loss = nn.BCELoss()
         #self.count_loss = nn.MSELoss()
 
-    def forward(self, seg_pred, seg_target):#, heatmap_pred, heatmap_target): #, count_pred, count_target
+    def forward(self, seg_pred, seg_target, heatmap_pred, heatmap_target): #, count_pred, count_target
         l_seg = self.seg_loss(seg_pred, seg_target)
-        #l_heat = self.heatmap_loss(heatmap_pred, heatmap_target)
+        l_heat = self.heatmap_loss(heatmap_pred, heatmap_target)
         #l_count = self.count_loss(count_pred.view(-1), count_target.view(-1).float())
-        print(l_seg)#, l_heat)#,l_count)
-        return l_seg, l_seg.item()# + l_heat , (l_seg.item(), l_heat.item())#, l_count.item())
+        print(l_seg, l_heat)#,l_count)
+        return l_seg + l_heat , (l_seg.item(), l_heat.item())#, l_count.item())

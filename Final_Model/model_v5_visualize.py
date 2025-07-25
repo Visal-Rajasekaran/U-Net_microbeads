@@ -24,11 +24,11 @@ print(torch.cuda.get_device_name(0))
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 print(BASE_DIR)
-COCO_JSON_PATH = os.path.join(BASE_DIR,"label_generation", "annotations.json")
-IMAGE_FOLDER = os.path.join(BASE_DIR,"dataset", "fft_filtered")
-RESULTS_FOLDER = os.path.join(BASE_DIR, "results")
+#IMAGE_FOLDER = os.path.join(BASE_DIR, "synthetic_data_generation","synthetic_images" )
+IMAGE_FOLDER = os.path.join(BASE_DIR, "dataset2","images_selected","80x" )
+RESULTS_FOLDER = os.path.join(BASE_DIR, "synthetic_data_generation")
 #CENTROIDS_FOLDER = os.path.join(BASE_DIR, "dataset", "centroids")
-#MASKS_FOLDER = os.path.join(BASE_DIR, "dataset", "masks")
+MASKS_FOLDER = os.path.join(BASE_DIR, "synthetic_data_generation", "masks")
 
 def generate_heatmap(image_shape, points, radii, default_sigma=4):
     heatmap = np.zeros(image_shape, dtype=np.float32)
@@ -104,12 +104,12 @@ val_split = 0.2
 max_epochs = 200
 early_stop_patience = 30
 lr_plateau_patience = 14
-
+generator = torch.Generator().manual_seed(42)
 # Dataset
-full_dataset = CentroidDataset(os.path.join(RESULTS_FOLDER, 'all_centroids.csv'), IMAGE_FOLDER, MASKS_FOLDER)
+full_dataset = CentroidDataset(os.path.join(RESULTS_FOLDER, "synthetic_centroids.csv"), IMAGE_FOLDER, MASKS_FOLDER)
 val_size = int(len(full_dataset) * val_split)
 train_size = len(full_dataset) - val_size
-train_dataset, val_dataset = random_split(full_dataset, [train_size, val_size])
+train_dataset, val_dataset = random_split(full_dataset, [train_size, val_size], generator=generator)
 
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
@@ -188,16 +188,12 @@ def visualize_outputs(model_path, dataset, index=0, device='cuda',type=None):
         ax.axis('off')
 
     plt.tight_layout()
-    model_folder = "fft_model_v4_seg_only_0.75"
+    model_folder = "results\\sdg_1_val_on_original"
     os.makedirs(os.path.join(RESULTS_FOLDER,model_folder),exist_ok=True)
-    plt.savefig(os.path.join(RESULTS_FOLDER,model_folder,f"Model_v4_fft_{type}_{index}.png"))
-
-    '''markers, bead_count, overlay = apply_watershed(thresholded_seg_np, original_img=image_np)
-    print("Bead count (watershed):", bead_count)
-    plt.imsave("watershed_overlay.png", overlay)'''
+    plt.savefig(os.path.join(RESULTS_FOLDER,model_folder,f"Model_v5_sdg_{type}_{index}.png"))
 
 print("Length of dataset", len(val_dataset))
-model_path = os.path.join(BASE_DIR,"weights" "weights_fft_new_microscopy_model_v5_seg_only_0.75.pth")
+model_path = os.path.join(BASE_DIR,"weights_outputs", "weights_fft_new_microscopy_model_v5.pth")
 #train_set = CentroidDataset(os.path.join(RESULTS_FOLDER, 'all_centroids_copy.csv'), IMAGE_FOLDER, MASKS_FOLDER)
 for j in range(len(val_dataset)):
     visualize_outputs(model_path, val_dataset, index=j,type="val")

@@ -137,7 +137,7 @@ for epoch in range(max_epochs):
 
         #seg_pred, heat_pred, count_pred = model(images)
         #seg_pred, heat_pred = model(images)
-        heat_pred = model(images)
+        #heat_pred = model(images)
         #print("Pred count:", count_pred.detach().cpu().numpy())
         #print("True count:", count_target.detach().cpu().numpy())
 
