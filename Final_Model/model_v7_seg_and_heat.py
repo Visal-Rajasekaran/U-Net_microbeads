@@ -73,7 +73,7 @@ class UNet(nn.Module):
 
         # Outputs
         self.seg_out = nn.Conv2d(64, 1, kernel_size=1)
-        self.heat_out = nn.Conv2d(64, 1, kernel_size=1)
+        #self.heat_out = nn.Conv2d(64, 1, kernel_size=1)
         '''self.count_head = nn.Sequential(
             nn.Conv2d(64, 32, kernel_size=3, padding=1),
             nn.ReLU(),
@@ -83,7 +83,7 @@ class UNet(nn.Module):
             nn.Flatten(),
             nn.Linear(16, 1)
         )'''
-        print("Updated1")
+
 
     def forward(self, x):
         s1 = self.enc1(x)
@@ -109,10 +109,10 @@ class UNet(nn.Module):
         d1 = self.dec1(torch.cat([u1, a1], dim=1))
 
         seg = torch.sigmoid(self.seg_out(d1))
-        heat = torch.sigmoid(self.heat_out(d1))
+        #heat = torch.sigmoid(self.heat_out(d1))
         #count = self.count_head(d1)
 
-        return seg, heat#, count
+        return seg#, heat#, count
 
 class NANO_PICS(nn.Module):
     def __init__(self):

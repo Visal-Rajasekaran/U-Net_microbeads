@@ -13,18 +13,19 @@ IMG_SIZE = 512
 CROP_SIZE = 7
 STRIDE = 1
 SAVE_BEAD_LIBRARIES = True  # Set to False to disable saving
+apply_blur = False
 
 BASE_FOLDER = Path(__file__).parent
 INPUT_ROOT = BASE_FOLDER.parent / "dataset2" / "images_selected"
 BEAD_FOLDER = BASE_FOLDER / "bead_library"
 BACKGROUND_FOLDER = BASE_FOLDER / "background_library"
-SAMPLE_FOLDER = BASE_FOLDER / "synthetic_images_2"
-MASK_FOLDER = BASE_FOLDER / "masks_2"
-CSV_LOG = SAMPLE_FOLDER / "synthetic_centroids_2.csv"
+SAMPLE_FOLDER = BASE_FOLDER / "synthetic_images_4"
+MASK_FOLDER = BASE_FOLDER / "masks_4"
+CSV_LOG = SAMPLE_FOLDER / "synthetic_centroids_4.csv"
 
 shutil.rmtree(SAMPLE_FOLDER, ignore_errors=True)
 shutil.rmtree(MASK_FOLDER,ignore_errors=True)
-
+os.remove(CSV_LOG)
 SAMPLE_FOLDER.mkdir(exist_ok=True)
 MASK_FOLDER.mkdir(exist_ok=True)
 
@@ -37,30 +38,72 @@ MAX_BEADS = 1000
 MAX_BACKGROUNDS = 1000
 
 # -------------------- Bead Detection -------------------- #
+def normalize_image_rgb(image, method='none'):
+    if method == 'mean_std':
+        norm = image.astype(np.float32)
+        mean = norm.mean()
+        std = norm.std()
+        if std < 1e-5: std = 1
+        norm = (norm - mean) / std * 40 + 128
+        return np.clip(norm, 0, 255).astype(np.uint8)
+
+    elif method == 'clahe':
+        # Convert to LAB and apply CLAHE on L channel
+        lab = cv2.cvtColor(image, cv2.COLOR_RGB2LAB)
+        l, a, b = cv2.split(lab)
+        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+        l_clahe = clahe.apply(l)
+        lab_clahe = cv2.merge((l_clahe, a, b))
+        return cv2.cvtColor(lab_clahe, cv2.COLOR_LAB2RGB)
+
+    elif method == 'histogram':
+        norm = image.astype(np.float32)
+        imin, imax = np.percentile(norm, (2, 98))
+        if imax - imin < 1e-5: return image
+        norm = (norm - imin) / (imax - imin) * 255
+        return np.clip(norm, 0, 255).astype(np.uint8)
+    elif method == 'min_max':    
+        norm_image = np.zeros_like(image, dtype=np.float32)
+        #image = cv2.RGB2
+        for c in range(3):  # For each color channel
+            channel = image[:, :, c].astype(np.float32)
+            min_val = channel.min()
+            max_val = channel.max()
+            if max_val > min_val:  # Avoid division by zero
+                norm_image[:, :, c] = (channel - min_val) / (max_val - min_val)
+            else:
+                norm_image[:, :, c] = 0  # flat color
+        return (norm_image * 255).astype(np.uint8)
+
+    else:
+        return image  # No normalization
+
+
 def has_bead_signature(crop, edge_thresh_bead, bright_thresh_bead, edge_thresh_bg,bright_thresh_bg, bead=True):
     gray = cv2.cvtColor(crop, cv2.COLOR_RGB2GRAY)
     center = gray.shape[0] // 2
     center_region = gray[center-2:center+2, center-2:center+2]
     edge_pixels = np.concatenate([gray[0, :], gray[-1, :], gray[:, 0], gray[:, -1]])
     if bead:
-        return (edge_pixels.mean() - center_region.mean()) > edge_thresh_bead or gray.mean() < bright_thresh_bead
+        return (edge_pixels.mean() - center_region.mean()) > edge_thresh_bead and gray.mean() < bright_thresh_bead
     else:
         return gray.mean() > bright_thresh_bg and abs(edge_pixels.mean() - center_region.mean()) < edge_thresh_bg
 
 # -------------------- Library Creation -------------------- #
-def create_bead_library(image, ref_brightness):
+def create_bead_library(image, ref_brightness, edge_thresh_bead, bright_thresh_bead,edge_thresh_bg,bright_thresh_bg):
     shutil.rmtree(BEAD_FOLDER, ignore_errors=True)
     shutil.rmtree(BACKGROUND_FOLDER, ignore_errors=True)
     BEAD_FOLDER.mkdir(exist_ok=True)
     BACKGROUND_FOLDER.mkdir(exist_ok=True)
-
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    image = normalize_image_rgb(image, method="min_max")
     image_brightness = image.mean()
     brightness_offset = image_brightness - ref_brightness
 
-    edge_thresh_bead = 40 + brightness_offset
-    bright_thresh_bead = 80 + brightness_offset
-    edge_thresh_bg = 10 + brightness_offset
-    bright_thresh_bg = 120 + brightness_offset
+    edge_thresh_bead = 30 + brightness_offset*0
+    bright_thresh_bead = 170 + brightness_offset*0
+    edge_thresh_bg = 10 + brightness_offset*0
+    bright_thresh_bg = 200 + brightness_offset*0
     '''brightness_offset = np.clip(image_brightness - ref_brightness, -30, 30)
 
     edge_thresh_bead = (0.4 * image.std()) + brightness_offset
@@ -186,7 +229,8 @@ def generate_synthetic_image(image_id, num_clusters, cluster_size_range):
             area = np.pi * (bead_radius**2)
             writer.writerow([image_id + 1, image_filename, bead_id, 1, x, y, int(area), bead_radius])
 
-    base_img = augment_image(base_img)
+    if apply_blur == True:
+        base_img = augment_image(base_img) 
     cv2.imwrite(str(SAMPLE_FOLDER / image_filename), base_img)
     cv2.imwrite(str(MASK_FOLDER / image_filename), mask)
 
@@ -196,20 +240,28 @@ if __name__ == "__main__":
     ref_brightness = ref_img.mean()
 
     density_config = {
-        "80x": (1000, (1, 15)),
-        "320x": (500, (1, 4)),
-        "640x": (300, (1, 2)),
-        "1280x": (100, (1, 2)),
-        "2560x": (50, (1, 2)),
-        "5120x": (20, (1, 2)),
-        "10240x": (10, (1, 1)),
+        "80x": (1000, (1, 15), 7),
+        "320x": (500, (1, 4), 8),
+        "640x": (300, (1, 2), 9),
+        "1280x": (100, (1, 2), 10),
+        "2560x": (50, (1, 2), 10),
+        "5120x": (20, (1, 2), 10),
+        "10240x": (10, (1, 1), 10),
     }
+    edge_thresh_bead, bright_thresh_bead,edge_thresh_bg,bright_thresh_bg = 40,120,10,160
 
     img_count = 0
-    for density, (num_clusters, cluster_range) in density_config.items():
+    for density, (num_clusters, cluster_range, bead_size) in density_config.items():
         density_path = INPUT_ROOT / density
         if not density_path.exists():
             continue
+        CROP_SIZE = bead_size
+        if density == "80x":
+            apply_blur = True
+            edge_thresh_bead, bright_thresh_bead,edge_thresh_bg,bright_thresh_bg = 30,170,10,200
+        else:
+            apply_blur = False
+            edge_thresh_bead, bright_thresh_bead,edge_thresh_bg,bright_thresh_bg = 120,60,10,160
 
         images = list(density_path.glob("*.png"))
         selected_images = random.sample(images, min(5, len(images)))
@@ -217,7 +269,7 @@ if __name__ == "__main__":
         for img_path in selected_images:
             print(f"Current Image: {img_path}")
             raw_img = cv2.imread(str(img_path))
-            create_bead_library(raw_img, ref_brightness)
-            for _ in range(5):
+            create_bead_library(raw_img, ref_brightness,edge_thresh_bead, bright_thresh_bead,edge_thresh_bg,bright_thresh_bg)
+            for _ in range(2):
                 generate_synthetic_image(img_count, num_clusters, cluster_range)
                 img_count += 1
